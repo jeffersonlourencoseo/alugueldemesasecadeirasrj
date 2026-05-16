@@ -6,9 +6,9 @@ import Footer from '../../components/Footer.astro';
 
 const servicos = await getCollection('servicos');
 
-const phone = '5511999999999';
-const message = 'Olá! Gostaria de fazer um orçamento para aluguel de mesas e cadeiras.';
-const waLink = `https://wa.me/${phone}?text=${encodeURIComponent(message)}`;
+import { SITE_CONFIG } from '../../data/config';
+
+const waLink = SITE_CONFIG.social.whatsappLink;
 ---
 
 <Layout title="Serviços | Aluguel de Mesas e Cadeiras">

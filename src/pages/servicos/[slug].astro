@@ -15,9 +15,9 @@ export async function getStaticPaths() {
 const { servico } = Astro.props;
 const { Content } = await servico.render();
 
-const phone = '5511999999999';
-const message = `Olá! Gostaria de fazer um orçamento para ${servico.data.title}.`;
-const waLink = `https://wa.me/${phone}?text=${encodeURIComponent(message)}`;
+import { SITE_CONFIG } from '../../data/config';
+
+const waLink = SITE_CONFIG.social.whatsappLink;
 ---
 
 <Layout title={`${servico.data.title} | Aluguel de Mesas e Cadeiras`}>

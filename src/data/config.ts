@@ -1,5 +1,5 @@
 export const SITE_CONFIG = {
-  // Domínio
+  // Dominio
   domain: 'https://mesasecadeirasrio.com.br',
 
   // Empresa
@@ -7,23 +7,23 @@ export const SITE_CONFIG = {
   companyLegalName: 'Mesas e Cadeiras Rio Locação de Equipamentos LTDA',
   slogan: 'Aluguel de Mesas e Cadeiras para o Seu Evento Perfeito',
 
-  // NAP (Name, Address, Phone) — Essencial para SEO Local
+  // NAP (Name, Address, Phone) - Essencial para SEO Local
   nap: {
     name: 'Mesas e Cadeiras Rio',
-    address: 'Rua das Festas, 123',
-    addressComplement: 'Centro',
+    address: 'Av. Brasil, 11201',
+    addressComplement: 'Penha Circular',
     city: 'Rio de Janeiro',
     state: 'RJ',
-    postalCode: '20000-000',
+    postalCode: '21012-351',
     country: 'BR',
-    phone: '+55 21 99999-9999',
-    phoneDisplay: '(21) 99999-9999',
-    whatsapp: '+55 21 99999-9999',
-    whatsappDisplay: '(21) 99999-9999',
+    phone: '+55 21 99775-1577',
+    phoneDisplay: '(21) 99775-1577',
+    whatsapp: '+55 21 99775-1577',
+    whatsappDisplay: '(21) 99775-1577',
     email: 'contato@mesasecadeirasrio.com.br',
   },
 
-  // Horário de Funcionamento (Schema.org format)
+  // Horario de Funcionamento (Schema.org format)
   openingHours: [
     'Mo-Fr 08:00-18:00',
     'Sa 08:00-14:00',
@@ -34,7 +34,7 @@ export const SITE_CONFIG = {
     instagram: 'https://instagram.com/mesasecadeirasrio',
     facebook: 'https://facebook.com/mesasecadeirasrio',
     whatsappLink:
-      'https://wa.me/5521999999999?text=Olá!%20Gostaria%20de%20fazer%20um%20orçamento%20para%20aluguel%20de%20mesas%20e%20cadeiras.',
+      'https://wa.me/5521997751577?text=Olá!%20Gostaria%20de%20fazer%20um%20orçamento%20para%20aluguel%20de%20mesas%20e%20cadeiras.',
   },
 
   // SEO Defaults
@@ -55,7 +55,7 @@ export const SITE_CONFIG = {
     locale: 'pt_BR',
   },
 
-  // Região de Atuação (Local SEO)
+  // Regiao de Atuação (Local SEO)
   serviceArea: {
     city: 'Rio de Janeiro',
     state: 'RJ',
@@ -68,6 +68,13 @@ export const SITE_CONFIG = {
       'Tijuca',
       'Botafogo',
       'Flamengo',
+      'Penha',
+      'Penha Circular',
+      'Iraja',
+      'Vicente de Carvalho',
+      'Olaria',
+      'Bonsucesso',
+      'Ramos',
     ],
   },
 } as const;

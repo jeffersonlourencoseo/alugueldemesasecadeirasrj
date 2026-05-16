@@ -3,6 +3,7 @@ import { getCollection } from 'astro:content';
 import Layout from '../../layouts/Layout.astro';
 import Header from '../../components/Header.astro';
 import Footer from '../../components/Footer.astro';
+import { SITE_CONFIG } from '../../data/config';
 
 const posts = await getCollection('blog');
 const sortedPosts = posts.sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
@@ -70,7 +71,7 @@ const sortedPosts = posts.sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDa
             Nossa equipe está pronta para tirar suas dúvidas e ajudar na escolha certa de mesas e cadeiras.
           </p>
           <a
-            href="https://wa.me/5511999999999?text=Olá! Gostaria de tirar dúvidas sobre aluguel de mesas e cadeiras."
+            href={SITE_CONFIG.social.whatsappLink}
             target="_blank"
             rel="noopener noreferrer"
             class="inline-flex items-center justify-center px-10 py-5 text-lg font-bold text-accent bg-primary rounded-full hover:scale-105 active:scale-95 transition-all shadow-lg shadow-primary/20"
