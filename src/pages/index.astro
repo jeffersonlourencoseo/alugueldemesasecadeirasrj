@@ -1,0 +1,250 @@
+---
+import { getCollection } from 'astro:content';
+import Layout from '../layouts/Layout.astro';
+import Header from '../components/Header.astro';
+import Hero from '../components/Hero.astro';
+import Footer from '../components/Footer.astro';
+import WhatsAppFloat from '../components/WhatsAppFloat.astro';
+
+const servicos = await getCollection('servicos');
+const featuredServicos = servicos.slice(0, 6);
+
+const diferenciais = [
+  {
+    icon: '⚡',
+    title: 'Entrega em 2 Horas',
+    desc: 'Levamos mesas e cadeiras até o seu evento com extrema rapidez e pontualidade garantida.',
+  },
+  {
+    icon: '✅',
+    title: 'Equipamentos Revisados',
+    desc: 'Todas as mesas e cadeiras passam por higienização e manutenção antes de cada locação.',
+  },
+  {
+    icon: '💰',
+    title: 'Melhor Preço Garantido',
+    desc: 'Orçamento justo e transparente, sem taxas ocultas. Qualidade com o melhor custo-benefício.',
+  },
+  {
+    icon: '🛡️',
+    title: 'Segurança Total',
+    desc: 'Estruturas testadas e certificadas. Sua festa com a segurança que seus convidados merecem.',
+  },
+];
+
+const depoimentos = [
+  {
+    nome: 'Carlos Mendes',
+    foto: 'CM',
+    local: 'São Paulo, SP',
+    texto: 'Contratei o aluguel de mesas e cadeiras para o aniversário da minha filha e fiquei impressionado com a pontualidade e a qualidade dos equipamentos. Super recomendo!',
+  },
+  {
+    nome: 'Ana Paula Ferreira',
+    foto: 'AF',
+    local: 'Guarulhos, SP',
+    texto: 'Utilizei os serviços para um evento corporativo e tudo foi perfeito. Atendimento rápido, preços justos e montagem impecável. Parabéns à equipe!',
+  },
+  {
+    nome: 'Roberto Silva',
+    foto: 'RS',
+    local: 'Osasco, SP',
+    texto: 'Aluguei mesas e cadeiras para o casamento do meu filho. A entrega foi no horário, tudo limpo e em perfeito estado. Sem dúvida, voltarei a contratar.',
+  },
+];
+---
+
+<Layout title="Aluguel de Mesas e Cadeiras | Entrega Rápida e Preço Justo">
+  <Header />
+
+  <main>
+    <Hero />
+
+    <!-- DIFERENCIAIS -->
+    <section class="py-24 md:py-32">
+      <div class="container mx-auto px-6 md:px-12">
+        <div class="text-center max-w-3xl mx-auto mb-16">
+          <h2 class="text-3xl md:text-5xl font-black tracking-tighter text-gray-900 mb-6">
+            Por que Escolher Nosso Aluguel?
+          </h2>
+          <p class="text-lg text-gray-600 leading-relaxed">
+            Diferenciais que fazem a diferença no seu evento.
+          </p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 md:gap-12">
+          {diferenciais.map((item) => (
+            <article class="p-10 md:p-12 bg-gray-50 rounded-2xl border border-gray-100 hover:shadow-xl hover:scale-105 active:scale-95 transition-all text-center">
+              <div class="text-5xl mb-6">{item.icon}</div>
+              <h3 class="text-xl font-black text-gray-900 mb-4">{item.title}</h3>
+              <p class="text-gray-600 leading-relaxed">{item.desc}</p>
+            </article>
+          ))}
+        </div>
+      </div>
+    </section>
+
+    <!-- SOBRE RESUMO -->
+    <section class="py-24 md:py-32 bg-gray-50">
+      <div class="container mx-auto px-6 md:px-12">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-10 md:gap-12 items-center">
+          <article class="p-10 md:p-12">
+            <span class="inline-block px-4 py-2 text-sm font-black text-accent bg-primary rounded-full mb-6">
+              Sobre Nós
+            </span>
+            <h2 class="text-3xl md:text-5xl font-black tracking-tighter text-gray-900 mb-6">
+              Mais de 10 Anos Entregando Qualidade
+            </h2>
+            <p class="text-lg text-gray-600 leading-relaxed mb-6">
+              Somos uma empresa especializada no aluguel de mesas e cadeiras para eventos de todos os portes. Nosso compromisso é oferecer equipamentos de qualidade, entrega pontual e um atendimento que supera expectativas.
+            </p>
+            <p class="text-lg text-gray-600 leading-relaxed mb-10">
+              De festas de aniversário a grandes eventos corporativos, temos a estrutura certa para mobiliar qualquer celebração com segurança e elegância.
+            </p>
+            <a
+              href="/sobre"
+              class="inline-flex items-center justify-center px-8 py-4 text-lg font-bold text-accent bg-primary rounded-full hover:scale-105 active:scale-95 transition-all shadow-lg shadow-primary/20"
+            >
+              Conheça Nossa História
+            </a>
+          </article>
+
+          <div class="p-10 md:p-12">
+            <div class="grid grid-cols-2 gap-6">
+              <div class="p-8 bg-white rounded-2xl border border-gray-100 text-center hover:shadow-lg hover:scale-105 active:scale-95 transition-all">
+                <p class="text-4xl md:text-5xl font-black text-secondary mb-2">10+</p>
+                <p class="text-gray-600 font-medium">Anos de Experiência</p>
+              </div>
+              <div class="p-8 bg-white rounded-2xl border border-gray-100 text-center hover:shadow-lg hover:scale-105 active:scale-95 transition-all">
+                <p class="text-4xl md:text-5xl font-black text-secondary mb-2">5.000+</p>
+                <p class="text-gray-600 font-medium">Eventos Atendidos</p>
+              </div>
+              <div class="p-8 bg-white rounded-2xl border border-gray-100 text-center hover:shadow-lg hover:scale-105 active:scale-95 transition-all">
+                <p class="text-4xl md:text-5xl font-black text-secondary mb-2">98%</p>
+                <p class="text-gray-600 font-medium">Clientes Satisfeitos</p>
+              </div>
+              <div class="p-8 bg-white rounded-2xl border border-gray-100 text-center hover:shadow-lg hover:scale-105 active:scale-95 transition-all">
+                <p class="text-4xl md:text-5xl font-black text-secondary mb-2">2h</p>
+                <p class="text-gray-600 font-medium">Tempo Médio de Entrega</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- EQUIPAMENTOS -->
+    <section id="equipamentos" class="py-24 md:py-32">
+      <div class="container mx-auto px-6 md:px-12">
+        <div class="text-center max-w-3xl mx-auto mb-16">
+          <h2 class="text-3xl md:text-5xl font-black tracking-tighter text-gray-900 mb-6">
+            Nossos Equipamentos
+          </h2>
+          <p class="text-lg text-gray-600 leading-relaxed">
+            Escolha o ideal para o seu evento.
+          </p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 md:gap-12">
+          {featuredServicos.map((servico) => (
+            <article class="p-10 md:p-12 bg-gray-50 rounded-2xl border border-gray-100 hover:shadow-xl hover:scale-105 active:scale-95 transition-all flex flex-col">
+              <h3 class="text-2xl font-black text-gray-900 mb-4">
+                {servico.data.title}
+              </h3>
+              <p class="text-gray-600 leading-relaxed mb-6 flex-grow">
+                {servico.data.description}
+              </p>
+              {servico.data.price && (
+                <p class="text-xl font-black text-secondary mb-6">
+                  {servico.data.price}
+                </p>
+              )}
+              <a
+                href={`/servicos/${servico.slug}`}
+                class="inline-flex items-center justify-center w-full p-6 text-lg font-bold text-accent bg-primary rounded-xl hover:scale-105 active:scale-95 transition-all shadow-lg shadow-primary/20"
+              >
+                Ver Detalhes
+              </a>
+            </article>
+          ))}
+        </div>
+
+        <div class="text-center mt-16">
+          <a
+            href="/servicos"
+            class="inline-flex items-center justify-center px-10 py-5 text-lg font-bold text-white bg-secondary rounded-full hover:bg-blue-900 hover:scale-105 active:scale-95 transition-all shadow-lg shadow-secondary/20"
+          >
+            Ver Todos os Equipamentos
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- DEPOIMENTOS -->
+    <section class="py-24 md:py-32 bg-gray-50">
+      <div class="container mx-auto px-6 md:px-12">
+        <div class="text-center max-w-3xl mx-auto mb-16">
+          <h2 class="text-3xl md:text-5xl font-black tracking-tighter text-gray-900 mb-6">
+            O que Nossos Clientes Dizem
+          </h2>
+          <p class="text-lg text-gray-600 leading-relaxed">
+            A satisfação de quem confia em nossos serviços é nossa maior conquista.
+          </p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-10 md:gap-12">
+          {depoimentos.map((dep) => (
+            <article class="p-10 md:p-12 bg-white rounded-2xl border border-gray-100 shadow-sm hover:shadow-xl hover:scale-105 active:scale-95 transition-all">
+              <p class="text-gray-600 leading-relaxed mb-8 text-lg">
+                "{dep.texto}"
+              </p>
+              <footer class="flex items-center gap-4">
+                <div class="w-12 h-12 bg-secondary text-white rounded-full flex items-center justify-center font-black text-lg">
+                  {dep.foto}
+                </div>
+                <div>
+                  <p class="font-black text-gray-900">{dep.nome}</p>
+                  <p class="text-gray-500 text-sm">{dep.local}</p>
+                </div>
+              </footer>
+            </article>
+          ))}
+        </div>
+      </div>
+    </section>
+
+    <!-- CHAMADA DE CONTATO -->
+    <section class="py-24 md:py-32">
+      <div class="container mx-auto px-6 md:px-12">
+        <div class="max-w-5xl mx-auto p-10 md:p-16 bg-secondary rounded-3xl text-center">
+          <h2 class="text-3xl md:text-5xl font-black tracking-tighter text-primary mb-6">
+            Pronto para Alugar Mesas e Cadeiras?
+          </h2>
+          <p class="text-lg md:text-xl text-gray-100 leading-relaxed mb-10 max-w-3xl mx-auto">
+            Entre em contato agora mesmo e garanta o melhor preço para o seu evento.
+            Atendimento rápido e orçamento sem compromisso.
+          </p>
+          <div class="flex flex-col sm:flex-row gap-4 justify-center">
+            <a
+              href="https://wa.me/5511999999999?text=Olá! Gostaria de fazer um orçamento para aluguel de mesas e cadeiras."
+              target="_blank"
+              rel="noopener noreferrer"
+              class="inline-flex items-center justify-center px-10 py-5 text-lg font-bold text-accent bg-primary rounded-full hover:scale-105 active:scale-95 transition-all shadow-lg shadow-primary/20"
+            >
+              📱 Falar no WhatsApp
+            </a>
+            <a
+              href="/contato"
+              class="inline-flex items-center justify-center px-10 py-5 text-lg font-bold text-white border-2 border-white rounded-full hover:bg-white hover:text-secondary hover:scale-105 active:scale-95 transition-all"
+            >
+              Preencher Formulário
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <Footer />
+  <WhatsAppFloat />
+</Layout>

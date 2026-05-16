@@ -1,0 +1,127 @@
+---
+import { SITE_CONFIG } from '../../data/config';
+
+interface Props {
+  pageUrl?: string;
+  breadcrumb?: { name: string; url: string }[];
+}
+
+const { pageUrl = SITE_CONFIG.domain, breadcrumb } = Astro.props;
+
+const fullAddress = {
+  '@type': 'PostalAddress',
+  streetAddress: SITE_CONFIG.nap.address,
+  addressLocality: SITE_CONFIG.nap.city,
+  addressRegion: SITE_CONFIG.nap.state,
+  postalCode: SITE_CONFIG.nap.postalCode,
+  addressCountry: SITE_CONFIG.nap.country,
+};
+
+const localBusinessSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'LocalBusiness',
+  '@id': `${SITE_CONFIG.domain}/#localbusiness`,
+  name: SITE_CONFIG.nap.name,
+  alternateName: SITE_CONFIG.companyLegalName,
+  description: SITE_CONFIG.seo.description,
+  url: SITE_CONFIG.domain,
+  telephone: SITE_CONFIG.nap.phone,
+  email: SITE_CONFIG.nap.email,
+  image: `${SITE_CONFIG.domain}/og-image.jpg`,
+  logo: `${SITE_CONFIG.domain}/logo.png`,
+  priceRange: '$$',
+  openingHoursSpecification: SITE_CONFIG.openingHours.map((hours) => {
+    const [days, time] = hours.split(' ');
+    const [opens, closes] = time.split('-');
+    return {
+      '@type': 'OpeningHoursSpecification',
+      dayOfWeek: days
+        .split('-')
+        .map((d) =>
+          ({
+            Mo: 'Monday',
+            Tu: 'Tuesday',
+            We: 'Wednesday',
+            Th: 'Thursday',
+            Fr: 'Friday',
+            Sa: 'Saturday',
+            Su: 'Sunday',
+          } as Record<string, string>)[d],
+        ),
+      opens,
+      closes,
+    };
+  }),
+  address: fullAddress,
+  geo: {
+    '@type': 'GeoCoordinates',
+    latitude: '-22.9068',
+    longitude: '-43.1729',
+  },
+  areaServed: {
+    '@type': 'City',
+    name: SITE_CONFIG.serviceArea.city,
+    containedInPlace: {
+      '@type': 'State',
+      name: SITE_CONFIG.serviceArea.state,
+    },
+  },
+  sameAs: [
+    SITE_CONFIG.social.instagram,
+    SITE_CONFIG.social.facebook,
+  ],
+};
+
+const websiteSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'WebSite',
+  '@id': `${SITE_CONFIG.domain}/#website`,
+  url: SITE_CONFIG.domain,
+  name: SITE_CONFIG.companyName,
+  description: SITE_CONFIG.slogan,
+  publisher: {
+    '@id': `${SITE_CONFIG.domain}/#localbusiness`,
+  },
+  potentialAction: {
+    '@type': 'SearchAction',
+    target: {
+      '@type': 'EntryPoint',
+      urlTemplate: `${SITE_CONFIG.domain}/?q={search_term_string}`,
+    },
+    'query-input': 'required name=search_term_string',
+  },
+};
+
+const breadcrumbSchema = breadcrumb
+  ? {
+      '@context': 'https://schema.org',
+      '@type': 'BreadcrumbList',
+      itemListElement: breadcrumb.map((item, index) => ({
+        '@type': 'ListItem',
+        position: index + 1,
+        name: item.name,
+        item: item.url.startsWith('http') ? item.url : `${SITE_CONFIG.domain}${item.url}`,
+      })),
+    }
+  : null;
+---
+
+<!-- Schema LocalBusiness (Google Maps) -->
+<script
+  type="application/ld+json"
+  set:html={JSON.stringify(localBusinessSchema)}
+/>
+
+<!-- Schema WebSite (Google Search) -->
+<script
+  type="application/ld+json"
+  set:html={JSON.stringify(websiteSchema)}
+/>
+
+<!-- Schema Breadcrumb (Google Search) -->
+{breadcrumbSchema && (
+  <script
+    type="application/ld+json"
+    set:html={JSON.stringify(breadcrumbSchema)}
+  />
+)}

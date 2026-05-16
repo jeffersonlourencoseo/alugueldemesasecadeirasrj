@@ -1,0 +1,94 @@
+---
+import { SITE_CONFIG } from '../../data/config';
+
+interface Props {
+  title?: string;
+  description?: string;
+  ogImage?: string;
+  canonical?: string;
+  noindex?: boolean;
+  article?: boolean;
+  pubDate?: Date;
+  modifiedDate?: Date;
+  tags?: string[];
+}
+
+const {
+  title,
+  description,
+  ogImage,
+  canonical,
+  noindex = false,
+  article = false,
+  pubDate,
+  modifiedDate,
+  tags,
+} = Astro.props;
+
+const resolvedTitle = title
+  ? `${title} | ${SITE_CONFIG.companyName}`
+  : SITE_CONFIG.seo.title;
+
+const resolvedDescription = description || SITE_CONFIG.seo.description;
+const resolvedOgImage = ogImage
+  ? (ogImage.startsWith('http') ? ogImage : `${SITE_CONFIG.domain}${ogImage}`)
+  : `${SITE_CONFIG.domain}${SITE_CONFIG.seo.ogImage}`;
+
+const resolvedCanonical = canonical
+  ? (canonical.startsWith('http') ? canonical : `${SITE_CONFIG.domain}${canonical}`)
+  : `${SITE_CONFIG.domain}${Astro.url.pathname}`;
+---
+
+<!-- Meta Tags Essenciais -->
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+<!-- Título e Descrição -->
+<title>{resolvedTitle}</title>
+<meta name="description" content={resolvedDescription} />
+<meta name="author" content={SITE_CONFIG.seo.author} />
+<meta name="robots" content={noindex ? 'noindex, nofollow' : 'index, follow'} />
+
+<!-- Canonical -->
+<link rel="canonical" href={resolvedCanonical} />
+
+<!-- Open Graph (Facebook, WhatsApp, LinkedIn) -->
+<meta property="og:site_name" content={SITE_CONFIG.companyName} />
+<meta property="og:title" content={resolvedTitle} />
+<meta property="og:description" content={resolvedDescription} />
+<meta property="og:url" content={resolvedCanonical} />
+<meta property="og:type" content={article ? 'article' : 'website'} />
+<meta property="og:locale" content={SITE_CONFIG.seo.locale} />
+<meta property="og:image" content={resolvedOgImage} />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+<meta property="og:image:alt" content={resolvedTitle} />
+
+<!-- Twitter Cards -->
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content={resolvedTitle} />
+<meta name="twitter:description" content={resolvedDescription} />
+<meta name="twitter:image" content={resolvedOgImage} />
+<meta name="twitter:image:alt" content={resolvedTitle} />
+
+<!-- Artigo: Metadados extras -->
+{article && pubDate && (
+  <>
+    <meta property="article:published_time" content={pubDate.toISOString()} />
+    {modifiedDate && <meta property="article:modified_time" content={modifiedDate.toISOString()} />}
+    {tags?.map((tag) => <meta property="article:tag" content={tag} />)}
+  </>
+)}
+
+<!-- Preconnect para Performance -->
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link rel="dns-prefetch" href="https://fonts.googleapis.com" />
+
+<!-- Favicons -->
+<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+
+<!-- Sitemap -->
+<link rel="sitemap" href="/sitemap-index.xml" />

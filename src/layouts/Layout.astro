@@ -1,0 +1,44 @@
+---
+import { SITE_CONFIG } from '../data/config';
+import SEO from '../components/seo/SEO.astro';
+import SchemaLocalBusiness from '../components/seo/SchemaLocalBusiness.astro';
+import WhatsAppBtn from '../components/WhatsAppBtn.astro';
+
+interface Props {
+  title?: string;
+  description?: string;
+  ogImage?: string;
+  canonical?: string;
+  noindex?: boolean;
+  article?: boolean;
+  pubDate?: Date;
+  modifiedDate?: Date;
+  tags?: string[];
+  breadcrumb?: { name: string; url: string }[];
+}
+
+const props = Astro.props;
+---
+
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <SEO {...props} />
+    <SchemaLocalBusiness
+      breadcrumb={props.breadcrumb}
+    />
+
+    <!-- Fonte Inter -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Preload crítico -->
+    <link rel="preload" href="/favicon.svg" as="image" type="image/svg+xml" />
+  </head>
+  <body class="font-sans antialiased text-gray-900 bg-white">
+    <slot />
+    <WhatsAppBtn />
+  </body>
+</html>
