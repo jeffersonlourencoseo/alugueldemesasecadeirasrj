@@ -8,7 +8,12 @@
       "Bash(git init *)",
       "Bash(git add *)",
       "Bash(git commit *)",
-      "Bash(git config *)"
+      "Bash(git config *)",
+      "Bash(taskkill /F /IM node.exe)",
+      "Bash(netstat -ano)",
+      "Bash(findstr :4321)",
+      "Bash(taskkill *)",
+      "PowerShell(Stop-Process *)"
     ]
   }
 }
