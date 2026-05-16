@@ -1,4 +1,6 @@
 ---
+import { SITE_CONFIG } from '../data/config';
+
 const navLinks = [
   { href: '/', label: 'Home' },
   { href: '/sobre', label: 'Sobre' },
@@ -7,9 +9,7 @@ const navLinks = [
   { href: '/contato', label: 'Contato' },
 ];
 
-const phone = '5511999999999';
-const message = 'Olá! Gostaria de fazer um orçamento para aluguel de mesas e cadeiras.';
-const waLink = `https://wa.me/${phone}?text=${encodeURIComponent(message)}`;
+const waLink = SITE_CONFIG.social.whatsappLink;
 ---
 
 <header class="sticky top-0 z-50 bg-white/80 backdrop-blur-md border-b border-gray-200">

@@ -1,0 +1,28 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+---
+
+<Layout title="Página Não Encontrada | Aluguel de Mesas e Cadeiras" noindex>
+  <Header />
+
+  <main>
+    <section class="py-24 md:py-32">
+      <div class="container mx-auto px-6 md:px-12 text-center">
+        <h1 class="text-6xl md:text-8xl font-black text-secondary mb-6">404</h1>
+        <p class="text-xl md:text-2xl text-gray-600 mb-10">
+          Opa! Parece que esta página não existe mais.
+        </p>
+        <a
+          href="/"
+          class="inline-flex items-center justify-center px-10 py-5 text-lg font-bold text-accent bg-primary rounded-full hover:scale-105 active:scale-95 transition-all shadow-lg shadow-primary/20"
+        >
+          Voltar para a Home
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <Footer />
+</Layout>

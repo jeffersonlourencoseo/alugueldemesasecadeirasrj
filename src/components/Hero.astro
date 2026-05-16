@@ -1,4 +1,6 @@
 ---
+import { SITE_CONFIG } from '../data/config';
+
 interface Props {
   title?: string;
   subtitle?: string;
@@ -8,12 +10,10 @@ interface Props {
 const {
   title = 'Aluguel de Mesas e Cadeiras para o Seu Evento Perfeito',
   subtitle = 'Oferecemos as melhores opções em mesas e cadeiras para festas, eventos corporativos e celebrações. Entrega rápida, montagem profissional e preços justos.',
-  tag = '🏆 Líder em Aluguel de Mesas e Cadeiras',
+  tag = 'Líder em Aluguel de Mesas e Cadeiras',
 } = Astro.props;
 
-const phone = '5511999999999';
-const message = 'Olá! Gostaria de fazer um orçamento para aluguel de mesas e cadeiras.';
-const waLink = `https://wa.me/${phone}?text=${encodeURIComponent(message)}`;
+const waLink = SITE_CONFIG.social.whatsappLink;
 ---
 
 <section class="relative overflow-hidden bg-secondary py-24 md:py-32">

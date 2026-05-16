@@ -3,7 +3,6 @@ import { getCollection } from 'astro:content';
 import Layout from '../../layouts/Layout.astro';
 import Header from '../../components/Header.astro';
 import Footer from '../../components/Footer.astro';
-import WhatsAppFloat from '../../components/WhatsAppFloat.astro';
 
 export async function getStaticPaths() {
   const posts = await getCollection('blog');
@@ -112,5 +111,4 @@ const relatedPosts = allPosts
   </main>
 
   <Footer />
-  <WhatsAppFloat />
 </Layout>

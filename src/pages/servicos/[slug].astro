@@ -3,7 +3,6 @@ import { getCollection } from 'astro:content';
 import Layout from '../../layouts/Layout.astro';
 import Header from '../../components/Header.astro';
 import Footer from '../../components/Footer.astro';
-import WhatsAppFloat from '../../components/WhatsAppFloat.astro';
 
 export async function getStaticPaths() {
   const servicos = await getCollection('servicos');
@@ -101,5 +100,4 @@ const waLink = `https://wa.me/${phone}?text=${encodeURIComponent(message)}`;
   </main>
 
   <Footer />
-  <WhatsAppFloat />
 </Layout>

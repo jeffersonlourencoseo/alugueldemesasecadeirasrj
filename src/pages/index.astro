@@ -4,9 +4,10 @@ import Layout from '../layouts/Layout.astro';
 import Header from '../components/Header.astro';
 import Hero from '../components/Hero.astro';
 import Footer from '../components/Footer.astro';
-import WhatsAppFloat from '../components/WhatsAppFloat.astro';
+import { SITE_CONFIG } from '../data/config';
 
 const servicos = await getCollection('servicos');
+const waLink = SITE_CONFIG.social.whatsappLink;
 const featuredServicos = servicos.slice(0, 6);
 
 const diferenciais = [
@@ -36,19 +37,19 @@ const depoimentos = [
   {
     nome: 'Carlos Mendes',
     foto: 'CM',
-    local: 'São Paulo, SP',
+    local: 'Copacabana, RJ',
     texto: 'Contratei o aluguel de mesas e cadeiras para o aniversário da minha filha e fiquei impressionado com a pontualidade e a qualidade dos equipamentos. Super recomendo!',
   },
   {
     nome: 'Ana Paula Ferreira',
     foto: 'AF',
-    local: 'Guarulhos, SP',
+    local: 'Barra da Tijuca, RJ',
     texto: 'Utilizei os serviços para um evento corporativo e tudo foi perfeito. Atendimento rápido, preços justos e montagem impecável. Parabéns à equipe!',
   },
   {
     nome: 'Roberto Silva',
     foto: 'RS',
-    local: 'Osasco, SP',
+    local: 'Tijuca, RJ',
     texto: 'Aluguei mesas e cadeiras para o casamento do meu filho. A entrega foi no horário, tudo limpo e em perfeito estado. Sem dúvida, voltarei a contratar.',
   },
 ];
@@ -226,7 +227,7 @@ const depoimentos = [
           </p>
           <div class="flex flex-col sm:flex-row gap-4 justify-center">
             <a
-              href="https://wa.me/5511999999999?text=Olá! Gostaria de fazer um orçamento para aluguel de mesas e cadeiras."
+              href={waLink}
               target="_blank"
               rel="noopener noreferrer"
               class="inline-flex items-center justify-center px-10 py-5 text-lg font-bold text-accent bg-primary rounded-full hover:scale-105 active:scale-95 transition-all shadow-lg shadow-primary/20"
@@ -246,5 +247,4 @@ const depoimentos = [
   </main>
 
   <Footer />
-  <WhatsAppFloat />
 </Layout>
