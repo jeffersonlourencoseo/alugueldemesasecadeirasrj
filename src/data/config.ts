@@ -34,7 +34,7 @@ export const SITE_CONFIG = {
     instagram: 'https://instagram.com/mesasecadeirasrio',
     facebook: 'https://facebook.com/mesasecadeirasrio',
     whatsappLink:
-      'https://wa.me/5521997751577?text=Olá!%20Gostaria%20de%20fazer%20um%20orçamento%20para%20aluguel%20de%20mesas%20e%20cadeiras.',
+      'https://wa.me/5521997751577?text=Olá,%20achei%20seu%20site%20no%20google%20e%20gostaria%20de%20saber%20mais%20informações!',
   },
 
   // SEO Defaults
