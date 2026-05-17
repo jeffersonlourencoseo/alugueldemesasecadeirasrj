@@ -34,14 +34,14 @@ export const SITE_CONFIG = {
     instagram: 'https://instagram.com/mesasecadeirasrio',
     facebook: 'https://facebook.com/mesasecadeirasrio',
     whatsappLink:
-      'https://wa.me/5521997751577?text=Olá,%20achei%20seu%20site%20no%20google%20e%20gostaria%20de%20saber%20mais%20informações!',
+      'https://wa.me/5521997751577?text=Ol%C3%A1%2C%20achei%20seu%20site%20de%20aluguel%20de%20mesas%20e%20cadeiras%20no%20google!',
   },
 
   // SEO Defaults
   seo: {
     title: 'Aluguel de Mesas e Cadeiras no Rio de Janeiro | Entrega Rápida',
     description:
-      'Aluguel de mesas e cadeiras no Rio de Janeiro. Entrega rápida, preço justo e equipamentos de qualidade para festas, eventos corporativos e celebrações. Solicite um orçamento!',
+      'Aluguel de mesas e cadeiras no Rio de Janeiro. Entrega rápida, orçamento justo e equipamentos de qualidade para festas, eventos corporativos e celebrações. Solicite um orçamento!',
     keywords: [
       'aluguel de mesas e cadeiras Rio de Janeiro',
       'aluguel de mesas para festa',

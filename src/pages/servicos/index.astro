@@ -33,14 +33,17 @@ const waLink = SITE_CONFIG.social.whatsappLink;
                   <p class="text-gray-600 leading-relaxed mb-6 flex-grow">
                     {servico.data.description}
                   </p>
-                  {servico.data.price && (
-                    <p class="text-xl font-black text-secondary mb-6">
-                      {servico.data.price}
-                    </p>
-                  )}
+                  <a
+                    href={waLink}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="inline-flex items-center justify-center w-full p-6 text-lg font-bold text-accent bg-primary rounded-xl hover:scale-105 active:scale-95 transition-all shadow-lg shadow-primary/20 mb-4"
+                  >
+                    📱 Solicitar Orçamento
+                  </a>
                   <a
                     href={`/servicos/${servico.slug}`}
-                    class="inline-flex items-center justify-center w-full p-6 text-lg font-bold text-accent bg-primary rounded-xl hover:scale-105 active:scale-95 transition-all shadow-lg shadow-primary/20"
+                    class="inline-flex items-center justify-center w-full py-3 text-base font-bold text-secondary border-2 border-secondary/30 rounded-xl hover:bg-secondary hover:text-white hover:scale-105 active:scale-95 transition-all"
                   >
                     Ver Detalhes
                   </a>

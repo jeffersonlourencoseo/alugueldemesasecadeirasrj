@@ -23,8 +23,8 @@ const diferenciais = [
   },
   {
     icon: '💰',
-    title: 'Melhor Preço Garantido',
-    desc: 'Orçamento justo e transparente, sem taxas ocultas. Qualidade com o melhor custo-benefício.',
+    title: 'Orçamento Justo e Transparente',
+    desc: 'Solicite um orçamento sem compromisso. Sem taxas ocultas e com o melhor custo-benefício do mercado.',
   },
   {
     icon: '🛡️',
@@ -44,7 +44,7 @@ const depoimentos = [
     nome: 'Ana Paula Ferreira',
     foto: 'AF',
     local: 'Barra da Tijuca, RJ',
-    texto: 'Utilizei os serviços para um evento corporativo e tudo foi perfeito. Atendimento rápido, preços justos e montagem impecável. Parabéns à equipe!',
+    texto: 'Utilizei os serviços para um evento corporativo e tudo foi perfeito. Atendimento rápido, ótimo custo-benefício e montagem impecável. Parabéns à equipe!',
   },
   {
     nome: 'Roberto Silva',
@@ -155,14 +155,17 @@ const depoimentos = [
               <p class="text-gray-600 leading-relaxed mb-6 flex-grow">
                 {servico.data.description}
               </p>
-              {servico.data.price && (
-                <p class="text-xl font-black text-secondary mb-6">
-                  {servico.data.price}
-                </p>
-              )}
+              <a
+                href={waLink}
+                target="_blank"
+                rel="noopener noreferrer"
+                class="inline-flex items-center justify-center w-full p-6 text-lg font-bold text-accent bg-primary rounded-xl hover:scale-105 active:scale-95 transition-all shadow-lg shadow-primary/20 mb-4"
+              >
+                📱 Solicitar Orçamento
+              </a>
               <a
                 href={`/servicos/${servico.slug}`}
-                class="inline-flex items-center justify-center w-full p-6 text-lg font-bold text-accent bg-primary rounded-xl hover:scale-105 active:scale-95 transition-all shadow-lg shadow-primary/20"
+                class="inline-flex items-center justify-center w-full py-3 text-base font-bold text-secondary border-2 border-secondary/30 rounded-xl hover:bg-secondary hover:text-white hover:scale-105 active:scale-95 transition-all"
               >
                 Ver Detalhes
               </a>
@@ -222,8 +225,8 @@ const depoimentos = [
             Pronto para Alugar Mesas e Cadeiras?
           </h2>
           <p class="text-lg md:text-xl text-gray-100 leading-relaxed mb-10 max-w-3xl mx-auto">
-            Entre em contato agora mesmo e garanta o melhor preço para o seu evento.
-            Atendimento rápido e orçamento sem compromisso.
+            Entre em contato agora mesmo e garanta o melhor atendimento para o seu evento.
+            Orçamento rápido, justo e sem compromisso.
           </p>
           <div class="flex flex-col sm:flex-row gap-4 justify-center">
             <a
