@@ -1,6 +1,6 @@
 export const SITE_CONFIG = {
   // Dominio
-  domain: 'https://mesasecadeirasrio.com.br',
+  domain: 'https://alugueldemesaecadeirario.com.br',
 
   // Empresa
   companyName: 'Mesas e Cadeiras Rio',
@@ -20,7 +20,7 @@ export const SITE_CONFIG = {
     phoneDisplay: '(21) 99775-1577',
     whatsapp: '+55 21 99775-1577',
     whatsappDisplay: '(21) 99775-1577',
-    email: 'contato@mesasecadeirasrio.com.br',
+    email: 'contato@alugueldemesaecadeirario.com.br',
   },
 
   // Horario de Funcionamento (Schema.org format)
