@@ -10,15 +10,15 @@ features:
 - 'Entrega e retirada inclusas'
 ---
 
-Oferecemos aluguel de cadeiras plásticas sem braço com qualidade garantida para o seu evento no Rio de Janeiro. Nossas peças são revisadas, higienizadas e entregues no horário combinado.
+Oferecemos aluguel com qualidade garantida para o seu evento no Rio de Janeiro. Nossas peças são revisadas, higienizadas e entregues no horário combinado.
 
-## Por que Alugar Cadeiras?
+## Por que Alugar Conosco?
 
 Alugar em vez de comprar é a escolha inteligente para quem organiza eventos esporádicos. Você economiza espaço de armazenamento, não precisa se preocupar com manutenção e garante que sempre terá equipamentos limpos e em perfeito estado.
 
 ## Eventos Indicados
 
-Nossas cadeiras são perfeitas para festas de aniversário, casamentos, formaturas, eventos corporativos, churrascos, festas juninas, confraternizações e qualquer celebração que exija mobiliário de qualidade.
+Nossos equipamentos são perfeitos para festas de aniversário, casamentos, formaturas, eventos corporativos, churrascos, festas juninas, confraternizações e qualquer celebração que exija mobiliário de qualidade.
 
 ## Vantagens do Nosso Aluguel
 
@@ -29,3 +29,4 @@ Nossas cadeiras são perfeitas para festas de aniversário, casamentos, formatur
 - Atendemos todas as regiões do Rio de Janeiro
 
 Entre em contato e solicite um orçamento sem compromisso.
+
