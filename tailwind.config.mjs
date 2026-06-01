@@ -6,12 +6,15 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        sans: ['Inter', 'system-ui', 'sans-serif'],
+        sans: ['DM Sans', 'system-ui', 'sans-serif'],
+        display: ['Playfair Display', 'Georgia', 'serif'],
       },
       colors: {
-        primary: '#FACC15',
-        secondary: '#1E3A8A',
-        accent: '#000000',
+        primary: '#C5A059',
+        secondary: '#0B1D3A',
+        accent: '#1A1A1A',
+        cream: '#FAF8F5',
+        'border-subtle': '#E8E4DE',
       },
     },
   },

@@ -23,7 +23,7 @@ const relatedPosts = allPosts
   .slice(0, 3);
 ---
 
-<Layout title={`${post.data.title} | Blog Aluguel de Mesas e Cadeiras`}>
+<Layout title={`${post.data.title} | Blog Aluguel de Mesas e Cadeiras`} article pubDate={post.data.pubDate} modifiedDate={post.data.updatedDate} tags={post.data.tags}>
   <Header />
 
   <main>
@@ -33,16 +33,16 @@ const relatedPosts = allPosts
           <!-- CONTEÚDO -->
           <div class="flex-1">
             <div class="max-w-5xl">
-              <article class="prose prose-lg md:prose-xl">
+              <article class="prose prose-lg md:prose-xl max-w-none">
                 <div class="flex flex-wrap gap-2 mb-6 not-prose">
                   {post.data.tags.map((tag) => (
-                    <span class="px-3 py-1 text-sm font-black bg-gray-100 rounded-full text-gray-600">
+                    <span class="px-3 py-1 text-xs font-bold uppercase tracking-wider bg-cream border border-border-subtle rounded-full text-accent/60">
                       {tag}
                     </span>
                   ))}
                 </div>
 
-                <time class="block text-lg text-gray-500 mb-6 not-prose">
+                <time class="block text-sm font-bold text-primary uppercase tracking-wider mb-6 not-prose">
                   {post.data.pubDate.toLocaleDateString('pt-BR', {
                     year: 'numeric',
                     month: 'long',
@@ -50,11 +50,11 @@ const relatedPosts = allPosts
                   })}
                 </time>
 
-                <h1 class="text-4xl md:text-5xl lg:text-6xl font-black tracking-tighter text-gray-900 mb-16">
+                <h1 class="font-display text-4xl md:text-5xl lg:text-6xl font-bold text-accent mb-16 not-prose">
                   {post.data.title}
                 </h1>
 
-                <p class="text-xl md:text-2xl text-gray-600 leading-relaxed mb-12">
+                <p class="text-xl md:text-2xl text-accent/60 leading-relaxed mb-12 not-prose">
                   {post.data.description}
                 </p>
 
@@ -67,9 +67,12 @@ const relatedPosts = allPosts
                     href={SITE_CONFIG.social.whatsappLink}
                     target="_blank"
                     rel="noopener noreferrer"
-                    class="inline-flex items-center justify-center px-10 py-5 text-lg font-bold text-accent bg-primary rounded-full hover:scale-105 active:scale-95 transition-all shadow-lg shadow-primary/20"
+                    class="inline-flex items-center justify-center gap-2 px-10 py-5 text-base font-bold uppercase tracking-wider text-secondary bg-primary rounded-full hover:scale-105 active:scale-95 transition-all shadow-lg shadow-primary/20"
                   >
-                    📱 Solicitar Orçamento
+                    <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                      <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+                    </svg>
+                    Solicitar Orçamento
                   </a>
                 </div>
               </article>
@@ -78,21 +81,29 @@ const relatedPosts = allPosts
 
           <!-- SIDEBAR CTA -->
           <aside class="lg:w-96 flex-shrink-0">
-            <div class="sticky top-28 p-10 md:p-12 bg-secondary rounded-2xl text-white">
-              <h3 class="text-2xl font-black text-primary mb-4">
-                Precisa de Mesas e Cadeiras?
-              </h3>
-              <p class="text-gray-200 leading-relaxed mb-8">
-                Fale com nossa equipe agora mesmo pelo WhatsApp e receba um orçamento rápido e sem compromisso para o seu evento.
-              </p>
-              <a
-                href={SITE_CONFIG.social.whatsappLink}
-                target="_blank"
-                rel="noopener noreferrer"
-                class="inline-flex items-center justify-center w-full p-6 text-lg font-bold text-accent bg-primary rounded-xl hover:scale-105 active:scale-95 transition-all shadow-xl shadow-primary/30"
-              >
-                📱 Pedir Orçamento
-              </a>
+            <div class="sticky top-28 p-10 bg-secondary rounded-2xl text-white relative overflow-hidden">
+              <!-- Grain -->
+              <div class="absolute inset-0 opacity-[0.03] pointer-events-none" style="background-image: url('data:image/svg+xml,%3Csvg viewBox=%220 0 200 200%22 xmlns=%22http://www.w3.org/2000/svg%22%3E%3Cfilter id=%22noiseFilter%22%3E%3CfeTurbulence type=%22fractalNoise%22 baseFrequency=%220.65%22 numOctaves=%223%22 stitchTiles=%22stitch%22/%3E%3C/filter%3E%3Crect width=%22100%25%22 height=%22100%25%22 filter=%22url(%23noiseFilter)%22/%3E%3C/svg%3E');"></div>
+
+              <div class="relative z-10">
+                <h3 class="font-display text-2xl font-bold text-primary mb-4">
+                  Precisa de Mesas e Cadeiras?
+                </h3>
+                <p class="text-white/60 leading-relaxed mb-8">
+                  Fale com nossa equipe agora mesmo pelo WhatsApp e receba um orçamento rápido e sem compromisso para o seu evento.
+                </p>
+                <a
+                  href={SITE_CONFIG.social.whatsappLink}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="inline-flex items-center justify-center gap-2 w-full p-5 text-base font-bold uppercase tracking-wider text-secondary bg-primary rounded-xl hover:scale-105 active:scale-95 transition-all shadow-xl shadow-primary/30"
+                >
+                  <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                    <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+                  </svg>
+                  Pedir Orçamento
+                </a>
+              </div>
             </div>
           </aside>
         </div>
@@ -100,17 +111,17 @@ const relatedPosts = allPosts
     </section>
 
     {relatedPosts.length > 0 && (
-      <section class="py-24 md:py-32 bg-gray-50">
+      <section class="py-24 md:py-32 bg-white">
         <div class="container mx-auto px-6 md:px-12">
           <div class="max-w-5xl mx-auto">
-            <h2 class="text-3xl md:text-4xl font-black tracking-tighter text-gray-900 mb-10">
+            <h2 class="font-display text-3xl md:text-4xl font-bold text-accent mb-10">
               Outras Dicas para Seu Evento
             </h2>
 
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-10 md:gap-12">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
               {relatedPosts.map((related) => (
-                <article class="p-10 bg-white rounded-2xl border border-gray-100 hover:shadow-xl hover:scale-105 active:scale-95 transition-all">
-                  <time class="text-sm font-black text-secondary mb-4 block">
+                <article class="p-10 bg-cream border border-border-subtle rounded-2xl hover:shadow-xl hover:-translate-y-1 active:scale-95 transition-all duration-300">
+                  <time class="text-sm font-bold text-primary uppercase tracking-wider mb-4 block">
                     {related.data.pubDate.toLocaleDateString('pt-BR', {
                       year: 'numeric',
                       month: 'long',
@@ -118,13 +129,13 @@ const relatedPosts = allPosts
                     })}
                   </time>
 
-                  <h3 class="text-xl font-black text-gray-900 mb-4">
-                    <a href={`/blog/${related.slug}`} class="hover:text-secondary hover:scale-105 active:scale-95 transition-all inline-block">
+                  <h3 class="font-display text-xl font-bold text-accent mb-4">
+                    <a href={`/blog/${related.slug}`} class="hover:text-secondary transition-colors">
                       {related.data.title}
                     </a>
                   </h3>
 
-                  <p class="text-gray-600 leading-relaxed">
+                  <p class="text-accent/60 leading-relaxed">
                     {related.data.description}
                   </p>
                 </article>

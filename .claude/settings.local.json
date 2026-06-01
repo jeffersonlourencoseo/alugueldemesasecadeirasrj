@@ -13,7 +13,17 @@
       "Bash(netstat -ano)",
       "Bash(findstr :4321)",
       "Bash(taskkill *)",
-      "PowerShell(Stop-Process *)"
+      "PowerShell(Stop-Process *)",
+      "Bash(curl *)",
+      "Bash(npx playwright *)",
+      "Read(//c/Program Files/Microsoft/Edge/Application/**)",
+      "Read(//c/Program Files \\(x86\\)/Microsoft/Edge/Application/**)",
+      "Read(//c/Program Files/Google/Chrome/Application/**)",
+      "Bash(node *)",
+      "Bash(gh auth *)",
+      "Bash(git remote *)",
+      "Bash(git push *)",
+      "WebFetch(domain:alugueldemesasecadeirasrj.vercel.app)"
     ]
   }
 }

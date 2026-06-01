@@ -12,22 +12,22 @@ const featuredServicos = servicos.slice(0, 6);
 
 const diferenciais = [
   {
-    icon: '⚡',
+    icon: `<svg class="w-10 h-10 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M13 10V3L4 14h7v7l9-11h-7z"/></svg>`,
     title: 'Entrega em 2 Horas',
     desc: 'Levamos mesas e cadeiras até o seu evento com extrema rapidez e pontualidade garantida.',
   },
   {
-    icon: '✅',
+    icon: `<svg class="w-10 h-10 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>`,
     title: 'Equipamentos Revisados',
     desc: 'Todas as mesas e cadeiras passam por higienização e manutenção antes de cada locação.',
   },
   {
-    icon: '💰',
+    icon: `<svg class="w-10 h-10 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>`,
     title: 'Orçamento Justo e Transparente',
     desc: 'Solicite um orçamento sem compromisso. Sem taxas ocultas e com o melhor custo-benefício do mercado.',
   },
   {
-    icon: '🛡️',
+    icon: `<svg class="w-10 h-10 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/></svg>`,
     title: 'Segurança Total',
     desc: 'Estruturas testadas e certificadas. Sua festa com a segurança que seus convidados merecem.',
   },
@@ -65,20 +65,25 @@ const depoimentos = [
     <section class="py-24 md:py-32">
       <div class="container mx-auto px-6 md:px-12">
         <div class="text-center max-w-3xl mx-auto mb-16">
-          <h2 class="text-3xl md:text-5xl font-black tracking-tighter text-gray-900 mb-6">
+          <span class="inline-block px-4 py-2 text-xs font-bold uppercase tracking-[0.2em] text-primary border border-primary/20 rounded-full mb-6">
+            Nossos Diferenciais
+          </span>
+          <h2 class="font-display text-3xl md:text-5xl font-bold text-accent mb-6">
             Por que Escolher Nosso Aluguel?
           </h2>
-          <p class="text-lg text-gray-600 leading-relaxed">
+          <p class="text-lg text-accent/60 leading-relaxed">
             Diferenciais que fazem a diferença no seu evento.
           </p>
         </div>
 
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 md:gap-12">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {diferenciais.map((item) => (
-            <article class="p-10 md:p-12 bg-gray-50 rounded-2xl border border-gray-100 hover:shadow-xl hover:scale-105 active:scale-95 transition-all text-center">
-              <div class="text-5xl mb-6">{item.icon}</div>
-              <h3 class="text-xl font-black text-gray-900 mb-4">{item.title}</h3>
-              <p class="text-gray-600 leading-relaxed">{item.desc}</p>
+            <article class="group p-10 bg-white border border-border-subtle rounded-2xl hover:shadow-2xl hover:-translate-y-1 active:scale-95 transition-all duration-300">
+              <div class="mb-6 p-4 bg-primary/5 rounded-xl w-fit">
+                <Fragment set:html={item.icon} />
+              </div>
+              <h3 class="text-xl font-bold text-accent mb-4">{item.title}</h3>
+              <p class="text-accent/60 leading-relaxed">{item.desc}</p>
             </article>
           ))}
         </div>
@@ -86,48 +91,46 @@ const depoimentos = [
     </section>
 
     <!-- SOBRE RESUMO -->
-    <section class="py-24 md:py-32 bg-gray-50">
+    <section class="py-24 md:py-32 bg-white">
       <div class="container mx-auto px-6 md:px-12">
-        <div class="grid grid-cols-1 lg:grid-cols-2 gap-10 md:gap-12 items-center">
-          <article class="p-10 md:p-12">
-            <span class="inline-block px-4 py-2 text-sm font-black text-accent bg-primary rounded-full mb-6">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-10 md:gap-16 items-center">
+          <article>
+            <span class="inline-block px-4 py-2 text-xs font-bold uppercase tracking-[0.2em] text-primary border border-primary/20 rounded-full mb-6">
               Sobre Nós
             </span>
-            <h2 class="text-3xl md:text-5xl font-black tracking-tighter text-gray-900 mb-6">
+            <h2 class="font-display text-3xl md:text-5xl font-bold text-accent mb-6">
               Mais de 10 Anos Entregando Qualidade
             </h2>
-            <p class="text-lg text-gray-600 leading-relaxed mb-6">
+            <p class="text-lg text-accent/60 leading-relaxed mb-6">
               Somos uma empresa especializada no aluguel de mesas e cadeiras para eventos de todos os portes. Nosso compromisso é oferecer equipamentos de qualidade, entrega pontual e um atendimento que supera expectativas.
             </p>
-            <p class="text-lg text-gray-600 leading-relaxed mb-10">
+            <p class="text-lg text-accent/60 leading-relaxed mb-10">
               De festas de aniversário a grandes eventos corporativos, temos a estrutura certa para mobiliar qualquer celebração com segurança e elegância.
             </p>
             <a
               href="/sobre"
-              class="inline-flex items-center justify-center px-8 py-4 text-lg font-bold text-accent bg-primary rounded-full hover:scale-105 active:scale-95 transition-all shadow-lg shadow-primary/20"
+              class="inline-flex items-center justify-center px-8 py-4 text-base font-bold uppercase tracking-wider text-secondary bg-primary rounded-full hover:scale-105 active:scale-95 transition-all shadow-lg shadow-primary/20"
             >
               Conheça Nossa História
             </a>
           </article>
 
-          <div class="p-10 md:p-12">
-            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 md:gap-6">
-              <div class="p-6 md:p-8 bg-white rounded-2xl border border-gray-100 text-center hover:shadow-lg hover:scale-105 active:scale-95 transition-all">
-                <p class="text-3xl md:text-4xl lg:text-5xl font-black text-secondary mb-2">10+</p>
-                <p class="text-gray-700 font-bold text-sm md:text-base">Anos de Experiência</p>
-              </div>
-              <div class="p-6 md:p-8 bg-white rounded-2xl border border-gray-100 text-center hover:shadow-lg hover:scale-105 active:scale-95 transition-all">
-                <p class="text-3xl md:text-4xl lg:text-5xl font-black text-secondary mb-2">5.000+</p>
-                <p class="text-gray-700 font-bold text-sm md:text-base">Eventos Atendidos</p>
-              </div>
-              <div class="p-6 md:p-8 bg-white rounded-2xl border border-gray-100 text-center hover:shadow-lg hover:scale-95 transition-all">
-                <p class="text-3xl md:text-4xl lg:text-5xl font-black text-secondary mb-2">98%</p>
-                <p class="text-gray-700 font-bold text-sm md:text-base">Clientes Satisfeitos</p>
-              </div>
-              <div class="p-6 md:p-8 bg-white rounded-2xl border border-gray-100 text-center hover:shadow-lg hover:scale-105 active:scale-95 transition-all">
-                <p class="text-3xl md:text-4xl lg:text-5xl font-black text-secondary mb-2">2h</p>
-                <p class="text-gray-700 font-bold text-sm md:text-base">Tempo Médio de Entrega</p>
-              </div>
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+            <div class="p-8 bg-cream border border-border-subtle rounded-2xl text-center hover:shadow-lg hover:-translate-y-1 transition-all duration-300">
+              <p class="font-display text-4xl md:text-5xl font-bold text-secondary mb-2">10+</p>
+              <p class="text-accent/70 font-semibold text-sm uppercase tracking-wider">Anos de Experiência</p>
+            </div>
+            <div class="p-8 bg-cream border border-border-subtle rounded-2xl text-center hover:shadow-lg hover:-translate-y-1 transition-all duration-300">
+              <p class="font-display text-4xl md:text-5xl font-bold text-secondary mb-2">5.000+</p>
+              <p class="text-accent/70 font-semibold text-sm uppercase tracking-wider">Eventos Atendidos</p>
+            </div>
+            <div class="p-8 bg-cream border border-border-subtle rounded-2xl text-center hover:shadow-lg hover:-translate-y-1 transition-all duration-300">
+              <p class="font-display text-4xl md:text-5xl font-bold text-secondary mb-2">98%</p>
+              <p class="text-accent/70 font-semibold text-sm uppercase tracking-wider">Clientes Satisfeitos</p>
+            </div>
+            <div class="p-8 bg-cream border border-border-subtle rounded-2xl text-center hover:shadow-lg hover:-translate-y-1 transition-all duration-300">
+              <p class="font-display text-4xl md:text-5xl font-bold text-secondary mb-2">2h</p>
+              <p class="text-accent/70 font-semibold text-sm uppercase tracking-wider">Tempo Médio de Entrega</p>
             </div>
           </div>
         </div>
@@ -138,34 +141,40 @@ const depoimentos = [
     <section id="equipamentos" class="py-24 md:py-32">
       <div class="container mx-auto px-6 md:px-12">
         <div class="text-center max-w-3xl mx-auto mb-16">
-          <h2 class="text-3xl md:text-5xl font-black tracking-tighter text-gray-900 mb-6">
+          <span class="inline-block px-4 py-2 text-xs font-bold uppercase tracking-[0.2em] text-primary border border-primary/20 rounded-full mb-6">
+            Catálogo
+          </span>
+          <h2 class="font-display text-3xl md:text-5xl font-bold text-accent mb-6">
             Nossos Equipamentos
           </h2>
-          <p class="text-lg text-gray-600 leading-relaxed">
+          <p class="text-lg text-accent/60 leading-relaxed">
             Escolha o ideal para o seu evento.
           </p>
         </div>
 
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 md:gap-12">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {featuredServicos.map((servico) => (
-            <article class="p-10 md:p-12 bg-gray-50 rounded-2xl border border-gray-100 hover:shadow-xl hover:scale-105 active:scale-95 transition-all flex flex-col">
-              <h3 class="text-2xl font-black text-gray-900 mb-4">
+            <article class="group p-10 bg-white border border-border-subtle rounded-2xl hover:shadow-2xl hover:-translate-y-1 active:scale-95 transition-all duration-300 flex flex-col">
+              <h3 class="font-display text-2xl font-bold text-accent mb-4">
                 {servico.data.title}
               </h3>
-              <p class="text-gray-600 leading-relaxed mb-6 flex-grow">
+              <p class="text-accent/60 leading-relaxed mb-8 flex-grow">
                 {servico.data.description}
               </p>
               <a
                 href={waLink}
                 target="_blank"
                 rel="noopener noreferrer"
-                class="inline-flex items-center justify-center w-full p-6 text-lg font-bold text-accent bg-primary rounded-xl hover:scale-105 active:scale-95 transition-all shadow-lg shadow-primary/20 mb-4"
+                class="inline-flex items-center justify-center gap-2 w-full p-5 text-base font-bold uppercase tracking-wider text-secondary bg-primary rounded-xl hover:scale-105 active:scale-95 transition-all shadow-lg shadow-primary/20 mb-3"
               >
-                📱 Solicitar Orçamento
+                <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                  <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+                </svg>
+                Solicitar Orçamento
               </a>
               <a
                 href={`/servicos/${servico.slug}`}
-                class="inline-flex items-center justify-center w-full py-3 text-base font-bold text-secondary border-2 border-secondary/30 rounded-xl hover:bg-secondary hover:text-white hover:scale-105 active:scale-95 transition-all"
+                class="inline-flex items-center justify-center w-full py-3 text-sm font-bold uppercase tracking-wider text-secondary border-2 border-secondary/20 rounded-xl hover:bg-secondary hover:text-white hover:scale-105 active:scale-95 transition-all"
               >
                 Ver Detalhes
               </a>
@@ -176,7 +185,7 @@ const depoimentos = [
         <div class="text-center mt-16">
           <a
             href="/servicos"
-            class="inline-flex items-center justify-center px-10 py-5 text-lg font-bold text-white bg-secondary rounded-full hover:bg-blue-900 hover:scale-105 active:scale-95 transition-all shadow-lg shadow-secondary/20"
+            class="inline-flex items-center justify-center px-10 py-5 text-base font-bold uppercase tracking-wider text-white bg-secondary rounded-full hover:bg-secondary/90 hover:scale-105 active:scale-95 transition-all shadow-lg shadow-secondary/20"
           >
             Ver Todos os Equipamentos
           </a>
@@ -185,30 +194,36 @@ const depoimentos = [
     </section>
 
     <!-- DEPOIMENTOS -->
-    <section class="py-24 md:py-32 bg-gray-50">
+    <section class="py-24 md:py-32 bg-white">
       <div class="container mx-auto px-6 md:px-12">
         <div class="text-center max-w-3xl mx-auto mb-16">
-          <h2 class="text-3xl md:text-5xl font-black tracking-tighter text-gray-900 mb-6">
+          <span class="inline-block px-4 py-2 text-xs font-bold uppercase tracking-[0.2em] text-primary border border-primary/20 rounded-full mb-6">
+            Depoimentos
+          </span>
+          <h2 class="font-display text-3xl md:text-5xl font-bold text-accent mb-6">
             O que Nossos Clientes Dizem
           </h2>
-          <p class="text-lg text-gray-600 leading-relaxed">
+          <p class="text-lg text-accent/60 leading-relaxed">
             A satisfação de quem confia em nossos serviços é nossa maior conquista.
           </p>
         </div>
 
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-10 md:gap-12">
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
           {depoimentos.map((dep) => (
-            <article class="p-10 md:p-12 bg-white rounded-2xl border border-gray-100 shadow-sm hover:shadow-xl hover:scale-105 active:scale-95 transition-all">
-              <p class="text-gray-600 leading-relaxed mb-8 text-lg">
+            <article class="p-10 bg-cream border border-border-subtle rounded-2xl shadow-sm hover:shadow-xl hover:-translate-y-1 active:scale-95 transition-all duration-300">
+              <svg class="w-8 h-8 text-primary mb-6" fill="currentColor" viewBox="0 0 24 24">
+                <path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z"/>
+              </svg>
+              <p class="text-accent/70 leading-relaxed mb-8 text-lg">
                 "{dep.texto}"
               </p>
               <footer class="flex items-center gap-4">
-                <div class="w-12 h-12 bg-secondary text-white rounded-full flex items-center justify-center font-black text-lg">
+                <div class="w-12 h-12 bg-primary text-secondary rounded-full flex items-center justify-center font-bold text-lg">
                   {dep.foto}
                 </div>
                 <div>
-                  <p class="font-black text-gray-900">{dep.nome}</p>
-                  <p class="text-gray-500 text-sm">{dep.local}</p>
+                  <p class="font-bold text-accent">{dep.nome}</p>
+                  <p class="text-accent/50 text-sm">{dep.local}</p>
                 </div>
               </footer>
             </article>
@@ -220,29 +235,39 @@ const depoimentos = [
     <!-- CHAMADA DE CONTATO -->
     <section class="py-24 md:py-32">
       <div class="container mx-auto px-6 md:px-12">
-        <div class="max-w-5xl mx-auto p-10 md:p-16 bg-secondary rounded-3xl text-center">
-          <h2 class="text-3xl md:text-5xl font-black tracking-tighter text-primary mb-6">
-            Pronto para Alugar Mesas e Cadeiras?
-          </h2>
-          <p class="text-lg md:text-xl text-gray-100 leading-relaxed mb-10 max-w-3xl mx-auto">
-            Entre em contato agora mesmo e garanta o melhor atendimento para o seu evento.
-            Orçamento rápido, justo e sem compromisso.
-          </p>
-          <div class="flex flex-col sm:flex-row gap-4 justify-center">
-            <a
-              href={waLink}
-              target="_blank"
-              rel="noopener noreferrer"
-              class="inline-flex items-center justify-center px-10 py-5 text-lg font-bold text-accent bg-primary rounded-full hover:scale-105 active:scale-95 transition-all shadow-lg shadow-primary/20"
-            >
-              📱 Falar no WhatsApp
-            </a>
-            <a
-              href="/contato"
-              class="inline-flex items-center justify-center px-10 py-5 text-lg font-bold text-white border-2 border-white rounded-full hover:bg-white hover:text-secondary hover:scale-105 active:scale-95 transition-all"
-            >
-              Preencher Formulário
-            </a>
+        <div class="relative max-w-5xl mx-auto p-10 md:p-16 bg-secondary rounded-3xl text-center overflow-hidden">
+          <!-- Grain -->
+          <div class="absolute inset-0 opacity-[0.03] pointer-events-none" style="background-image: url('data:image/svg+xml,%3Csvg viewBox=%220 0 200 200%22 xmlns=%22http://www.w3.org/2000/svg%22%3E%3Cfilter id=%22noiseFilter%22%3E%3CfeTurbulence type=%22fractalNoise%22 baseFrequency=%220.65%22 numOctaves=%223%22 stitchTiles=%22stitch%22/%3E%3C/filter%3E%3Crect width=%22100%25%22 height=%22100%25%22 filter=%22url(%23noiseFilter)%22/%3E%3C/svg%3E');"></div>
+          <!-- Decorative orb -->
+          <div class="absolute -top-24 -right-24 w-64 h-64 bg-primary rounded-full blur-[96px] opacity-10"></div>
+
+          <div class="relative z-10">
+            <h2 class="font-display text-3xl md:text-5xl font-bold text-primary mb-6">
+              Pronto para Alugar Mesas e Cadeiras?
+            </h2>
+            <p class="text-lg md:text-xl text-white/70 leading-relaxed mb-10 max-w-3xl mx-auto">
+              Entre em contato agora mesmo e garanta o melhor atendimento para o seu evento.
+              Orçamento rápido, justo e sem compromisso.
+            </p>
+            <div class="flex flex-col sm:flex-row gap-4 justify-center">
+              <a
+                href={waLink}
+                target="_blank"
+                rel="noopener noreferrer"
+                class="inline-flex items-center justify-center gap-2 px-10 py-5 text-base font-bold uppercase tracking-wider text-secondary bg-primary rounded-full hover:scale-105 active:scale-95 transition-all shadow-xl shadow-primary/20"
+              >
+                <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                  <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+                </svg>
+                Falar no WhatsApp
+              </a>
+              <a
+                href="/contato"
+                class="inline-flex items-center justify-center px-10 py-5 text-base font-bold uppercase tracking-wider text-white border border-white/30 rounded-full hover:bg-white hover:text-secondary hover:scale-105 active:scale-95 transition-all"
+              >
+                Preencher Formulário
+              </a>
+            </div>
           </div>
         </div>
       </div>
