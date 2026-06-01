@@ -1,6 +1,6 @@
 export const SITE_CONFIG = {
   // Dominio
-  domain: 'https://alugueldemesaecadeirario.com.br',
+  domain: 'https://www.alugueldemesaecadeirario.com.br',
 
   // Empresa
   companyName: 'Mesas e Cadeiras Rio',
