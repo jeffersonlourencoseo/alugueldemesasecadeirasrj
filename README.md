@@ -31,8 +31,7 @@ src/
 │   ├── Header.astro
 │   ├── Footer.astro
 │   ├── Hero.astro
-│   ├── WhatsAppBtn.astro      # Botão flutuante premium
-│   └── WhatsAppFloat.astro
+│   └── WhatsAppBtn.astro      # Botão flutuante premium
 ├── content/             # Coleções de conteúdo
 │   ├── blog/            # Posts SEO
 │   └── servicos/        # Páginas de serviços
@@ -65,7 +64,7 @@ src/
 
 - **Schema.org**: LocalBusiness, WebSite, BreadcrumbList
 - **Open Graph**: Cards otimizadas para WhatsApp e Facebook
-- **Sitemap**: `sitemap-index.xml` + `sitemap-0.xml` (12 URLs)
+- **Sitemap**: `/sitemap.xml` (12 URLs) gerado via endpoint Astro
 - **Robots.txt**: Diretrizes + link para sitemap
 - **Canonical**: Todas as páginas
 - **NAP**: Nome, Endereço e Telefone centralizados
