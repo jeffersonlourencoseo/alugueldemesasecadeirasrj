@@ -50,7 +50,7 @@ export const SITE_CONFIG = {
       'locação de mesas e cadeiras',
       'aluguel de móveis para festa RJ',
     ],
-    ogImage: '/og-image.jpg',
+    ogImage: '/og-image.svg',
     author: 'Mesas e Cadeiras Rio',
     locale: 'pt_BR',
   },
