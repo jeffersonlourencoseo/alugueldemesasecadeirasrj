@@ -8,7 +8,18 @@ import { SITE_CONFIG } from '../data/config';
 
 const servicos = await getCollection('servicos');
 const waLink = SITE_CONFIG.social.whatsappLink;
-const featuredServicos = servicos.slice(0, 6);
+const featuredSlugs = [
+  'conjunto-mesa-e-cadeiras',
+  'cadeiras-plasticas-com-braco',
+  'cadeiras-plasticas-sem-braco',
+  'mesas-bistro',
+  'mesas-de-vidro',
+  'tinas-para-bebidas',
+];
+
+const featuredServicos = featuredSlugs
+  .map((slug) => servicos.find((s) => s.slug === slug))
+  .filter(Boolean);
 
 const diferenciais = [
   {
