@@ -1,7 +1,7 @@
 ---
 title: 'Como Escolher Mesas e Cadeiras para Evento: O Guia Completo para Acertar na Decisão'
 description: 'Aprenda como escolher mesas e cadeiras para eventos de todos os tipos. Dicas de modelo, quantidade, layout e como evitar erros que arruínam a festa. Guia completo para casamentos, aniversários, corporativos e mais.'
-pubDate: 2024-01-15
+pubDate: 2026-05-15
 tags: ['como escolher', 'mesas e cadeiras', 'eventos', 'guia', 'dicas']
 ---
 
