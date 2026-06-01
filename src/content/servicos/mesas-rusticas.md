@@ -1,32 +1,42 @@
-﻿---
+---
 title: 'Aluguel de Mesas Rústicas'
 description: 'Mesas rústicas em madeira para eventos com temática country, casamentos no campo e festas temáticas no Rio de Janeiro. Charme e autenticidade.'
-price: 'Consulte o preço'
+price: 'Consulte'
 features:
-- 'Acabamento rústico em madeira'
-- 'Perfeitas para casamentos ao ar livre'
-- 'Temática country e vintage'
-- 'Cada peça tem característica única'
-- 'Entrega e montagem inclusas'
+  - 'Madeira maciça com acabamento rústico artesanal'
+  - 'Perfeitas para casamentos ao ar livre e sítios'
+  - 'Temática country, vintage, boho e farmhouse'
+  - 'Cada peça possui veios e tonalidades únicas'
+  - 'Entrega, montagem e retirada inclusas'
 ---
 
-Oferecemos aluguel com qualidade garantida para o seu evento no Rio de Janeiro. Nossas peças são revisadas, higienizadas e entregues no horário combinado.
+As mesas rústicas carregam uma história em cada veio de madeira. Com acabamento artesanal que preserva a textura natural da madeira, elas são a alma de casamentos no campo, festas temáticas country, eventos boho e celebrações que buscam autenticidade em vez de perfeição industrial. Se você sonha com um visual que pareça ter sido montado em um celeiro ou vinícola, as mesas rústicas são indispensáveis.
 
-## Por que Alugar Conosco?
+## Estética Natural e Única
 
-Alugar em vez de comprar é a escolha inteligente para quem organiza eventos esporádicos. Você economiza espaço de armazenamento, não precisa se preocupar com manutenção e garante que sempre terá equipamentos limpos e em perfeito estado.
+Diferente de mesas industrializadas idênticas uma à outra, cada mesa rústica possui características próprias: nós na madeira, variações de tom, leves imperfeições que contam uma história. Isso cria um visual orgânico e acolhedor, perfeito para fotos de casamento, mesas de convidados e áreas de degustação.
 
 ## Eventos Indicados
 
-Nossos equipamentos são perfeitos para festas de aniversário, casamentos, formaturas, eventos corporativos, churrascos, festas juninas, confraternizações e qualquer celebração que exija mobiliário de qualidade.
+As mesas rústicas são a escolha certa para:
+- Casamentos ao ar livre em sítios e fazendas
+- Festas temáticas country e sertanejo
+- Eventos com estilo boho e vintage
+- Celebrações de bodas de ouro e prata
+- Festas de aniversário rústicas e churrascos no campo
+- Ensaios fotográficos e editoriais de moda
 
-## Vantagens do Nosso Aluguel
+## Decoração que Combina
 
-- Equipamentos revisados e higienizados antes de cada entrega
-- Pontualidade garantida na entrega e retirada
-- Atendimento personalizado para ajudar na escolha
-- Orçamento justo e sem taxas ocultas
-- Atendemos todas as regiões do Rio de Janeiro
+Para extrair o máximo das mesas rústicas, recomendamos:
+- Jogos americanos de linho ou renda em tons terrosos
+- Arranjos de flores do campo em vasos de vidro ou lata
+- Velas em castiçais de ferro ou madeira
+- Guardanapos de tecido com anéis de corda sisal
+- Luminárias de filamento exposto penduradas acima
 
-Entre em contato e solicite um orçamento sem compromisso.
+## Manutenção e Cuidados
 
+Nossas mesas rústicas recebem tratamento com óleo de linhaça e cera de abelha para hidratar a madeira e proteger contra manchas. Após cada evento, fazemos reaplicação de produtos e lixamento leve para manter a textura natural. Entregamos com instruções de cuidado para que o organizador possa usar sem preocupação.
+
+Entre em contato pelo WhatsApp e reserve mesas rústicas para um evento inesquecível no Rio de Janeiro.

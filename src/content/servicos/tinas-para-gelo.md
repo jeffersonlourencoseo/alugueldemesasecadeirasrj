@@ -1,32 +1,47 @@
-﻿---
+---
 title: 'Aluguel de Tinas para Gelo'
-description: 'Tinas para gelo resistentes e de grande capacidade para festas, churrascos e eventos no Rio de Janeiro. Mantenha as bebidas sempre geladas.'
-price: 'Consulte o preço'
+description: 'Tinas para gelo resistentes e de grande capacidade para festas, churrascos e eventos no Rio de Janeiro. Mantenha cervejas, refrigerantes e sucos sempre gelados.'
+price: 'Consulte'
 features:
-- 'Grande capacidade de armazenamento'
-- 'Material resistente e durável'
-- 'Ideal para festas e churrascos'
-- 'Fácil limpeza e higienização'
-- 'Entrega e retirada inclusas'
+  - 'Capacidade de 50 a 100 litros de gelo e bebidas'
+  - 'Material de polipropileno resistente a impactos'
+  - 'Isolamento térmico que prolonga a duração do gelo'
+  - 'Alças reforçadas para transporte seguro'
+  - 'Entrega e retirada inclusas'
 ---
 
-Oferecemos aluguel com qualidade garantida para o seu evento no Rio de Janeiro. Nossas peças são revisadas, higienizadas e entregues no horário combinado.
+No calor do Rio de Janeiro, nada é mais importante que bebidas geladas. Nossas tinas para gelo são a solução prática e eficiente para manter cervejas, refrigerantes, águas, sucos e espumantes na temperatura ideal durante toda a festa. Com capacidade generosa e material resistente, elas eliminam a necessidade de geladeiras extras ou idas constantes ao freezer.
 
-## Por que Alugar Conosco?
+## Capacidade para Qualquer Evento
 
-Alugar em vez de comprar é a escolha inteligente para quem organiza eventos esporádicos. Você economiza espaço de armazenamento, não precisa se preocupar com manutenção e garante que sempre terá equipamentos limpos e em perfeito estado.
+Oferecemos tinas em diferentes capacidades para atender eventos de todos os portes:
+- **50 litros**: ideal para festas de até 30 pessoas
+- **75 litros**: perfeita para churrascos e aniversários médios
+- **100 litros**: indicada para casamentos, formaturas e grandes celebrações
+
+Uma tina de 75 litros comporta aproximadamente 60 latinhas de 350ml com gelo suficiente para 6 a 8 horas de refrigeração.
+
+## Como Usar Corretamente
+
+Para maximizar a eficiência da tina de gelo:
+1. Coloque uma camada de gelo no fundo (5 cm)
+2. Disponha as bebidas deitadas ou em pé, deixando espaço entre elas
+3. Preencha os vãos com mais gelo até cobrir as bebidas
+4. Tampe parcialmente com um pano ou isopor para reduzir derretimento
+5. Reposição de gelo a cada 3-4 horas em dias muito quentes
 
 ## Eventos Indicados
 
-Nossos equipamentos são perfeitos para festas de aniversário, casamentos, formaturas, eventos corporativos, churrascos, festas juninas, confraternizações e qualquer celebração que exija mobiliário de qualidade.
+As tinas para gelo são essenciais em:
+- Churrascos e almoços de confraternização
+- Festas de aniversário e casamentos
+- Eventos ao ar livre em sítios e praias
+- Festas juninas e quermesses
+- Eventos corporativos e confraternizações
+- Réveillon e celebrações de final de ano
 
-## Vantagens do Nosso Aluguel
+## Higienização
 
-- Equipamentos revisados e higienizados antes de cada entrega
-- Pontualidade garantida na entrega e retirada
-- Atendimento personalizado para ajudar na escolha
-- Orçamento justo e sem taxas ocultas
-- Atendemos todas as regiões do Rio de Janeiro
+Antes de cada locação, nossas tinas são lavadas com produtos alimentícios seguros, enxaguadas e secas. Verificamos a integridade das alças, a ausência de trincas e o funcionamento das tampas (quando aplicável). Isso garante que você receba um produto limpo, seguro e pronto para uso.
 
-Entre em contato e solicite um orçamento sem compromisso.
-
+Solicite orçamento pelo WhatsApp e garanta bebidas geladas do início ao fim do seu evento no Rio de Janeiro.

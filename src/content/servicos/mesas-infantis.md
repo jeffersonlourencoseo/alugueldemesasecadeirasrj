@@ -1,32 +1,42 @@
-﻿---
+---
 title: 'Aluguel de Mesas Infantis'
-description: 'Mesas infantis coloridas e seguras para festas de aniversário e eventos com crianças no Rio de Janeiro. Tamanho ideal para os pequenos.'
-price: 'Consulte o preço'
+description: 'Mesas infantis coloridas e seguras para festas de aniversário e eventos com crianças no Rio de Janeiro. Altura e design pensados para os pequenos.'
+price: 'Consulte'
 features:
-- 'Altura adequada para crianças'
-- 'Cantos arredondados para segurança'
-- 'Cores vibrantes e divertidas'
-- 'Fáceis de limpar e higienizar'
-- 'Entrega e montagem inclusas'
+  - 'Altura de 40 a 50 cm, ideal para crianças de 2 a 8 anos'
+  - 'Cantos arredondados e bordas protetoras'
+  - 'Cores vibrantes que alegram a decoração'
+  - 'Superfície lisa e fácil de limpar (tinta, cola, comida)'
+  - 'Entrega e montagem inclusas'
 ---
 
-Oferecemos aluguel com qualidade garantida para o seu evento no Rio de Janeiro. Nossas peças são revisadas, higienizadas e entregues no horário combinado.
+As mesas infantis são essenciais para qualquer festa de aniversário que envolva crianças. Proporcionais, seguras e coloridas, elas garantem que os pequenos tenham seu próprio espaço para comer, brincar, pintar e interagir com os amigos. Nada de crianças desconfortáveis em cadeiras grandes demais ou mesas inacessíveis.
 
-## Por que Alugar Conosco?
+## Segurança em Primeiro Lugar
 
-Alugar em vez de comprar é a escolha inteligente para quem organiza eventos esporádicos. Você economiza espaço de armazenamento, não precisa se preocupar com manutenção e garante que sempre terá equipamentos limpos e em perfeito estado.
+Nossas mesas infantis são projetadas com foco total na segurança. Cantos arredondados evitam machucados acidentais. As bordas são lisas, sem rebarbas ou farpas. Os pés são reforçados e antiderrapantes para que a mesa não escorregue quando a criança se apoia nela. Além disso, o material é atóxico e passa por higienização rigorosa antes de cada uso.
 
 ## Eventos Indicados
 
-Nossos equipamentos são perfeitos para festas de aniversário, casamentos, formaturas, eventos corporativos, churrascos, festas juninas, confraternizações e qualquer celebração que exija mobiliário de qualidade.
+As mesas infantis são indispensáveis em:
+- Festas de aniversário infantil (2 a 8 anos)
+- Chá de bebê com crianças convidadas
+- Festas temáticas infantis (princesas, super-heróis, etc.)
+- Eventos escolares e formaturas do maternal
+- Eventos familiares com muitas crianças
+- Dia das crianças e confraternizações escolares
 
-## Vantagens do Nosso Aluguel
+## Atividades na Mesa Infantil
 
-- Equipamentos revisados e higienizados antes de cada entrega
-- Pontualidade garantida na entrega e retirada
-- Atendimento personalizado para ajudar na escolha
-- Orçamento justo e sem taxas ocultas
-- Atendemos todas as regiões do Rio de Janeiro
+Com a mesa no tamanho certo, as crianças podem:
+- Fazer refeições sem derrubar o prato no colo
+- Pintar, desenhar e fazer artesanato com conforto
+- Montar jogos e brinquedos sobre uma superfície plana
+- Interagir com outras crianças de igual para igual
+- Abrir presentes e explorar sacolas de lembrancinhas
 
-Entre em contato e solicite um orçamento sem compromisso.
+## Dicas para o Organizador
 
+Separe uma área específica do salão para as mesas infantis, próxima à mesa dos adultos mas com espaço livre para circulação. Combine com cadeiras infantis da nossa locação para garantir que cada criança tenha seu lugar. Use toalhas de plástico coloridas para proteger as mesas e facilitar a limpeza após a festa.
+
+Solicite orçamento pelo WhatsApp e garanta mesas infantis seguras e coloridas para a festa do seu pequeno.

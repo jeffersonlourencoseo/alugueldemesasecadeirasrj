@@ -1,32 +1,39 @@
-﻿---
+---
 title: 'Aluguel de Mesas para Bolo'
 description: 'Mesas exclusivas para bolo e doces em festas de casamento, aniversário e eventos no Rio de Janeiro. Destaque para sua mesa de sobremesas.'
-price: 'Consulte o preço'
+price: 'Consulte'
 features:
-- 'Design elegante para exposição'
-- 'Tamanho ideal para bolos e doces'
-- 'Combina com qualquer decoração'
-- 'Estável e segura'
-- 'Entrega e montagem inclusas'
+  - 'Tamanho e altura ideais para exposição de bolos e doces'
+  - 'Base estável e nivelada para segurança do bolo'
+  - 'Acabamento elegante que realça a decoração'
+  - 'Disponíveis em diferentes formatos (redonda, quadrada, retangular)'
+  - 'Entrega e montagem inclusas'
 ---
 
-Oferecemos aluguel com qualidade garantida para o seu evento no Rio de Janeiro. Nossas peças são revisadas, higienizadas e entregues no horário combinado.
+A mesa do bolo é o ponto focal de muitas festas — especialmente casamentos e aniversários. Ela merece uma base à altura da ocasião. Nossas mesas para bolo são projetadas para receber bolos de múltiplos andares, torres de cupcakes, displays de doces finos e centros de mesa elaborados, sempre com elegância e segurança.
 
-## Por que Alugar Conosco?
+## Por que uma Mesa Exclusiva para Bolo?
 
-Alugar em vez de comprar é a escolha inteligente para quem organiza eventos esporádicos. Você economiza espaço de armazenamento, não precisa se preocupar com manutenção e garante que sempre terá equipamentos limpos e em perfeito estado.
+Bolo de casamento de três andares pesa muito mais do que parece. Uma mesa comum pode não suportar o peso, ou pior, pode tremer quando alguém se aproxima para tirar foto. Nossas mesas para bolo possuem estrutura reforçada, pés nivelados e superfície plana para que o bolo fique perfeitamente posicionado durante toda a festa.
 
-## Eventos Indicados
+## Tamanhos e Formatos
 
-Nossos equipamentos são perfeitos para festas de aniversário, casamentos, formaturas, eventos corporativos, churrascos, festas juninas, confraternizações e qualquer celebração que exija mobiliário de qualidade.
+Oferecemos mesas para bolo em diferentes dimensões:
+- **Redonda**: clássica, ideal para bolos centrais em casamentos
+- **Quadrada**: moderna, perfeita para mesas de doces temáticas
+- **Retangular**: ampla, indicada para mesas com bolo + doces + lembrancinhas
 
-## Vantagens do Nosso Aluguel
+## Decoração da Mesa do Bolo
 
-- Equipamentos revisados e higienizados antes de cada entrega
-- Pontualidade garantida na entrega e retirada
-- Atendimento personalizado para ajudar na escolha
-- Orçamento justo e sem taxas ocultas
-- Atendemos todas as regiões do Rio de Janeiro
+Uma boa mesa de bolo é metade mobiliário, metade cenografia. Recomendamos:
+- Toalha de tecido ou renda que chegue até o chão
+- Sousplat dourados ou prateados sob cada doce
+- Arranjo floral baixo para não esconder o bolo
+- Iluminação direcionada (spot ou velas LED) para destacar
+- Espelho sob o bolo para criar efeito de duplicação visual
 
-Entre em contato e solicite um orçamento sem compromisso.
+## Cuidados com o Transporte
 
+Nossa equipe entrega a mesa para bolo com antecedência suficiente para que a confeiteira possa montar a mesa com tranquilidade. Checamos o nivelamento no local, ajustamos os pés se o piso for irregular e confirmamos que a superfície está limpa e lisa antes de posicionar o bolo.
+
+Entre em contato pelo WhatsApp e reserve a mesa perfeita para o bolo do seu evento no Rio de Janeiro.

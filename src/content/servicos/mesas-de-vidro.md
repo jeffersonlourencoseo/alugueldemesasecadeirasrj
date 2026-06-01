@@ -1,32 +1,45 @@
-﻿---
+---
 title: 'Aluguel de Mesas de Vidro'
-description: 'Mesas de vidro sofisticadas para eventos formais, casamentos e celebrações elegantes no Rio de Janeiro. Transparência que valoriza a decoração.'
-price: 'Consulte o preço'
+description: 'Mesas de vidro sofisticadas para eventos formais, casamentos e celebrações elegantes no Rio de Janeiro. Transparência que valoriza qualquer decoração.'
+price: 'Consulte'
 features:
-- 'Design sofisticado e moderno'
-- 'Vidro temperado de segurança'
-- 'Valoriza a decoração do ambiente'
-- 'Fácil limpeza'
-- 'Entrega e montagem inclusas'
+  - 'Vidro temperado de segurança com bordas polidas'
+  - 'Design moderno que amplia visualmente o espaço'
+  - 'Reflete luz e realiza a iluminação do ambiente'
+  - 'Fácil limpeza e higienização completa'
+  - 'Entrega, montagem e retirada inclusas'
 ---
 
-Oferecemos aluguel com qualidade garantida para o seu evento no Rio de Janeiro. Nossas peças são revisadas, higienizadas e entregues no horário combinado.
+As mesas de vidro trazem sofisticação e leveza visual para eventos que exigem um toque de modernidade. A transparência do vidro cria uma sensação de amplitude, reflete a iluminação decorativa e combina perfeitamente com centros de mesa elaborados, toalhas coloridas e louças finas. Se você busca um visual clean e contemporâneo, a mesa de vidro é a peça-chave.
 
-## Por que Alugar Conosco?
+## Vidro Temperado de Segurança
 
-Alugar em vez de comprar é a escolha inteligente para quem organiza eventos esporádicos. Você economiza espaço de armazenamento, não precisa se preocupar com manutenção e garante que sempre terá equipamentos limpos e em perfeito estado.
+Nossas mesas utilizam vidro temperado, um material até cinco vezes mais resistente que o vidro comum. Em caso de quebra (extremamente raro), o vidro se desintegra em pequenos fragmentos sem arestas cortantes, minimizando o risco de acidentes. As bordas são polidas e arredondadas para segurança adicional.
 
 ## Eventos Indicados
 
-Nossos equipamentos são perfeitos para festas de aniversário, casamentos, formaturas, eventos corporativos, churrascos, festas juninas, confraternizações e qualquer celebração que exija mobiliário de qualidade.
+As mesas de vidro são perfeitas para:
+- Casamentos modernos e minimalistas
+- Eventos corporativos de luxo
+- Festas de debutante e formaturas sofisticadas
+- Coquetéis de lançamento e inaugurações
+- Jantares de gala e eventos beneficentes
+- Exposições de arte e desfiles
 
-## Vantagens do Nosso Aluguel
+## Decoração com Mesas de Vidro
 
-- Equipamentos revisados e higienizados antes de cada entrega
-- Pontualidade garantida na entrega e retirada
-- Atendimento personalizado para ajudar na escolha
-- Orçamento justo e sem taxas ocultas
-- Atendemos todas as regiões do Rio de Janeiro
+A transparência do vidro é uma vantagem para decoradores:
+- Coloque um tecido colorido ou estampado **sob** o vidro para criar efeito customizado
+- Use luzes de LED por baixo para iluminação indireta
+- Arranjos florais altos ganham destaque sem competir com o tampo
+- Velas e castiçais refletem no vidro, duplicando o efeito luminoso
 
-Entre em contato e solicite um orçamento sem compromisso.
+## Cuidados na Locação
 
+Nossas mesas de vidro são entregues com pés nivelados e base antiderrapante. Recomendamos:
+- Não arrastar objetos pesados sobre o tampo
+- Usar descansos de copo e sousplat para evitar arranhões
+- Evitar choques térmicos bruscos (panelas quentes diretamente sobre o vidro)
+- Limpar com pano macio e produtos neutros
+
+Fale conosco pelo WhatsApp e reserve mesas de vidro para um evento sofisticado no Rio de Janeiro.

@@ -1,32 +1,50 @@
-﻿---
+---
 title: 'Aluguel de Isopor'
-description: 'Caixas de isopor para transporte e conservação de alimentos e bebidas em eventos no Rio de Janeiro. Praticidade para buffet e churrasco.'
-price: 'Consulte o preço'
+description: 'Caixas de isopor para transporte e conservação de alimentos e bebidas em eventos no Rio de Janeiro. Praticidade térmica para buffet e churrasco.'
+price: 'Consulte'
 features:
-- 'Conservação térmica eficiente'
-- 'Ideal para transporte de alimentos'
-- 'Leve e prático'
-- 'Disponível em diversos tamanhos'
-- 'Entrega e retirada inclusas'
+  - 'Conservação térmica eficiente por até 12 horas'
+  - 'Ideal para transporte de carnes, saladas e sobremesas'
+  - 'Leve e fácil de empilhar'
+  - 'Disponível em tamanhos de 30 a 120 litros'
+  - 'Entrega e retirada inclusas'
 ---
 
-Oferecemos aluguel com qualidade garantida para o seu evento no Rio de Janeiro. Nossas peças são revisadas, higienizadas e entregues no horário combinado.
+As caixas de isopor são itens indispensáveis para eventos que envolvem transporte de alimentos perecíveis. Seja para levar carnes para um churrasco em sítio, transportar bolos e doces para uma festa ou manter saladas frescas durante o trajeto, o isopor oferece isolamento térmico eficiente por um preço extremamente acessível.
 
-## Por que Alugar Conosco?
+## Conservação Térmica
 
-Alugar em vez de comprar é a escolha inteligente para quem organiza eventos esporádicos. Você economiza espaço de armazenamento, não precisa se preocupar com manutenção e garante que sempre terá equipamentos limpos e em perfeito estado.
+O poliestireno expandido (isopor) possui estrutura celular fechada que retarda a troca de temperatura. Com gelo ou gel packs no interior, nossas caixas de isopor mantêm alimentos refrigerados por até 12 horas, dependendo da temperatura externa e da quantidade de gelo. Isso é suficiente para a maioria dos eventos no Rio de Janeiro, mesmo em dias de calor intenso.
 
 ## Eventos Indicados
 
-Nossos equipamentos são perfeitos para festas de aniversário, casamentos, formaturas, eventos corporativos, churrascos, festas juninas, confraternizações e qualquer celebração que exija mobiliário de qualidade.
+As caixas de isopor são essenciais em:
+- Churrascos em sítios, praias e áreas externas
+- Festas de aniversário com buffet transportado
+- Casamentos com catering externo
+- Eventos com entrega de comida em locais remotos
+- Transporte de bolos, tortas e sobremesas delicadas
+- Feiras e eventos gastronômicos
 
-## Vantagens do Nosso Aluguel
+## Tamanhos e Capacidades
 
-- Equipamentos revisados e higienizados antes de cada entrega
-- Pontualidade garantida na entrega e retirada
-- Atendimento personalizado para ajudar na escolha
-- Orçamento justo e sem taxas ocultas
-- Atendemos todas as regiões do Rio de Janeiro
+Oferecemos caixas de isopor em diversas dimensões:
+- **30 litros**: ideal para bolos, doces e pequenas quantidades de bebida
+- **60 litros**: perfeita para carnes de churrasco e saladas
+- **90 litros**: indicada para eventos médios com buffet completo
+- **120 litros**: para grandes celebrações e transporte de volumes altos
 
-Entre em contato e solicite um orçamento sem compromisso.
+## Dicas de Uso
 
+Para máxima eficiência térmica:
+- Pré-resfrie a caixa com gelo 30 minutos antes de carregar os alimentos
+- Use gelo em blocos (derrete mais lentamente que cubos)
+- Separe alimentos crus dos cozidos em caixas diferentes
+- Feche a tampa firmemente e evite abrir frequentemente
+- Mantenha a caixa na sombra, longe de superfícies quentes
+
+## Sustentabilidade
+
+Nossas caixas de isopor são reutilizáveis. Após cada evento, higienizamos, inspecionamos por trincas e reutilizamos. Quando atingem o fim da vida útil, encaminhamos para reciclagem de poliestireno. Alugar isopor em vez de comprar e descartar é uma escolha mais sustentável.
+
+Entre em contato pelo WhatsApp e alugue caixas de isopor para o transporte seguro dos alimentos do seu evento no Rio de Janeiro.

@@ -1,32 +1,51 @@
-﻿---
+---
 title: 'Aluguel de Puffs'
-description: 'Puffs modernos e versáteis para festas, eventos descontraídos e áreas de descanso no Rio de Janeiro. Conforto casual com estilo.'
-price: 'Consulte o preço'
+description: 'Puffs modernos e versáteis para festas, eventos descontraídos e áreas de descanso no Rio de Janeiro. Conforto casual com estilo contemporâneo.'
+price: 'Consulte'
 features:
-- 'Design moderno e descontraído'
-- 'Confortáveis e versáteis'
-- 'Indicados para áreas lounge e festas'
-- 'Fáceis de posicionar e combinar'
-- 'Entrega e montagem inclusas'
+  - 'Design moderno em formatos redondo, quadrado e cilíndrico'
+  - 'Revestimento em couro sintético, suede ou linho'
+  - 'Leves e fáceis de reposicionar durante o evento'
+  - 'Indicados para áreas lounge, festas e espaços de relaxamento'
+  - 'Entrega e retirada inclusas'
 ---
 
-Oferecemos aluguel com qualidade garantida para o seu evento no Rio de Janeiro. Nossas peças são revisadas, higienizadas e entregues no horário combinado.
+Os puffs são a definição de versatilidade em mobiliário de eventos. Sem encosto, sem braços, sem restrições — eles podem ser usados como assento extra, apoio para os pés, mesa lateral improvisada ou simplesmente como elemento decorativo. Modernos, coloridos e extremamente práticos, os puffs trazem um ar jovem e descontraído para qualquer celebração.
 
-## Por que Alugar Conosco?
+## Versatilidade Total
 
-Alugar em vez de comprar é a escolha inteligente para quem organiza eventos esporádicos. Você economiza espaço de armazenamento, não precisa se preocupar com manutenção e garante que sempre terá equipamentos limpos e em perfeito estado.
+A magia dos puffs está na ausência de estrutura rígida. Eles podem ser:
+- **Assentos extras**: quando faltam cadeiras, os puffs salvam
+- **Mesas laterais**: apoie bandejas, copos ou decoração
+- **Apoio para os pés**: perfeito junto a poltronas e sofás
+- **Elementos decorativos**: pilhas de puffs coloridos criam cenários instagramáveis
+- **Brinquedo infantil**: crianças adoram pular e se acomodar nos puffs baixos
 
 ## Eventos Indicados
 
-Nossos equipamentos são perfeitos para festas de aniversário, casamentos, formaturas, eventos corporativos, churrascos, festas juninas, confraternizações e qualquer celebração que exija mobiliário de qualidade.
+Os puffs são perfeitos para:
+- Festas de aniversário jovem e despedidas de solteiro
+- Áreas lounge em casamentos e formaturas
+- Eventos corporativos descontraídos e criativas
+- Coquetéis de lançamento e inaugurações
+- Festas temáticas e eventos descolados
+- Áreas de descanso em eventos longos
 
-## Vantagens do Nosso Aluguel
+## Formatos e Cores
 
-- Equipamentos revisados e higienizados antes de cada entrega
-- Pontualidade garantida na entrega e retirada
-- Atendimento personalizado para ajudar na escolha
-- Orçamento justo e sem taxas ocultas
-- Atendemos todas as regiões do Rio de Janeiro
+Oferecemos puffs em variedade que permite composições criativas:
+- **Redondo**: clássico, serve como assento ou mesa
+- **Quadrado**: encaixa em cantos, empilha para efeito visual
+- **Cilíndrico (tamborete)**: funciona como mesa de apoio ou assento alto
+- **Cores**: preto, branco, vermelho, azul, dourado, prata, rosa
 
-Entre em contato e solicite um orçamento sem compromisso.
+## Montagem Criativa
 
+Ideias para usar puffs no seu evento:
+- Monte uma "parede de puffs" como cenário de fotos
+- Disperso pelo salão, cria pontos de descanso informais
+- Em grupo de 4 com uma mesa bistrô no centro, forma uma ilha de convivência
+- Empilhados em tons degradê, viram escultura decorativa
+- Misture tamanhos (grande, médio, pequeno) para efeito visual dinâmico
+
+Entre em contato pelo WhatsApp e adicione puffs coloridos e versáteis ao seu evento no Rio de Janeiro.

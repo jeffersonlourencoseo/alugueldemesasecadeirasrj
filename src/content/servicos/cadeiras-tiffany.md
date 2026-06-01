@@ -1,32 +1,53 @@
-﻿---
+---
 title: 'Aluguel de Cadeiras Tiffany'
-description: 'Cadeiras Tiffany elegantes e sofisticadas para casamentos, formaturas e eventos formais no Rio de Janeiro. O toque de classe que seu evento precisa.'
-price: 'Consulte o preço'
+description: 'Cadeiras Tiffany elegantes e sofisticadas para casamentos, formaturas e eventos formais no Rio de Janeiro. O clássico que nunca sai de moda.'
+price: 'Consulte'
 features:
-- 'Design clássico e sofisticado'
-- 'Disponíveis em branco, dourado e prata'
-- 'Indicadas para casamentos e eventos formais'
-- 'Estrutura resistente e elegante'
-- 'Entrega e montagem inclusas'
+  - 'Design clássico de chiavari com encosto vazado'
+  - 'Disponíveis em branco, dourado, prata e transparente'
+  - 'Leves e empilháveis para logística eficiente'
+  - 'Almofadas opcionais em várias cores'
+  - 'Entrega, montagem e retirada inclusas'
 ---
 
-Oferecemos aluguel com qualidade garantida para o seu evento no Rio de Janeiro. Nossas peças são revisadas, higienizadas e entregues no horário combinado.
+As cadeiras Tiffany são o símbolo máximo de elegância em eventos. Conhecidas internacionalmente como cadeiras Chiavari, elas são presença obrigatória em casamentos de luxo, formaturas sofisticadas e eventos formais que buscam um visual de gala. Seu design leve, com encosto vazado e detalhes refinados, transforma qualquer salão em um cenário de revista.
 
-## Por que Alugar Conosco?
+## História e Prestígio
 
-Alugar em vez de comprar é a escolha inteligente para quem organiza eventos esporádicos. Você economiza espaço de armazenamento, não precisa se preocupar com manutenção e garante que sempre terá equipamentos limpos e em perfeito estado.
+Originárias da cidade italiana de Chiavari no século XIX, essas cadeiras foram criadas para combinar leveza visual com resistência estrutural. Hoje, são o padrão ouro em eventos de alto padrão em todo o mundo. Ter cadeiras Tiffany no seu evento é um statement de sofisticação e atenção aos detalhes.
+
+## Cores e Acabamentos
+
+Oferecemos cadeiras Tiffany em cores que atendem a diferentes paletas de decoração:
+- **Branco**: clássico, clean, perfeito para casamentos tradicionais
+- **Dourado**: luxuoso, ideal para formaturas e bodas de ouro
+- **Prata**: moderno, sofisticado, combina com decorações contemporâneas
+- **Transparente (acrilico)**: minimalista, iluminação passa através, visual único
+
+## Conforto com Almofadas
+
+As cadeiras Tiffany são leves e elegantes por natureza, mas o assento de madeira ou policarbonato pode ser rígido para eventos longos. Oferecemos almofadas opcionais em várias cores e espessuras:
+- **Couro sintético branco**: clássico, fácil de limpar
+- **Veludo**: luxuoso, indicado para inverno
+- **Suede**: textura agradável, disponível em tons terrosos
+- **Capitonê**: extra conforto para eventos de muitas horas
 
 ## Eventos Indicados
 
-Nossos equipamentos são perfeitos para festas de aniversário, casamentos, formaturas, eventos corporativos, churrascos, festas juninas, confraternizações e qualquer celebração que exija mobiliário de qualidade.
+As cadeiras Tiffany são indicadas para:
+- Casamentos de luxo e mini-weddings
+- Formaturas e colações de grau
+- Bodas de ouro, prata e diamante
+- Eventos corporativos de alto padrão
+- Desfiles e eventos da moda
+- Festas de debutante e aniversários de gala
 
-## Vantagens do Nosso Aluguel
+## Cuidados na Locação
 
-- Equipamentos revisados e higienizados antes de cada entrega
-- Pontualidade garantida na entrega e retirada
-- Atendimento personalizado para ajudar na escolha
-- Orçamento justo e sem taxas ocultas
-- Atendemos todas as regiões do Rio de Janeiro
+Devido ao valor estético das cadeiras Tiffany, nossa equipe realiza inspeção minuciosa antes de cada locação:
+- Verificação de trincas na estrutura de madeira ou policarbonato
+- Polimento de detalhes dourados e prateados
+- Higienização de assentos e encostos
+- Controle de almofadas (limpeza, cheiro, estado do zíper)
 
-Entre em contato e solicite um orçamento sem compromisso.
-
+Fale conosco pelo WhatsApp e reserve cadeiras Tiffany para um evento inesquecível no Rio de Janeiro.

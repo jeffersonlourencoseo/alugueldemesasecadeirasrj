@@ -1,32 +1,46 @@
-﻿---
+---
 title: 'Aluguel de Sofás'
-description: 'Sofás confortáveis e elegantes para áreas lounge, eventos corporativos e celebrações sofisticadas no Rio de Janeiro. Conforto e sofisticação.'
-price: 'Consulte o preço'
+description: 'Sofás elegantes e confortáveis para eventos corporativos, casamentos e áreas lounge no Rio de Janeiro. Sofisticação e aconchego para seus convidados.'
+price: 'Consulte'
 features:
-- 'Design elegante e confortável'
-- 'Indicados para áreas lounge e VIP'
-- 'Disponíveis em cores neutras'
-- 'Resistentes e bem cuidados'
-- 'Entrega e montagem inclusas'
+  - 'Sofás de 2 e 3 lugares com estofamento premium'
+  - 'Design clássico e contemporâneo para diferentes estilos de evento'
+  - 'Indicados para áreas lounge, recepção e camarotes VIP'
+  - 'Estrutura reforçada com madeira e molas de alta resistência'
+  - 'Entrega, montagem e retirada inclusas'
 ---
 
-Oferecemos aluguel com qualidade garantida para o seu evento no Rio de Janeiro. Nossas peças são revisadas, higienizadas e entregues no horário combinado.
+Os sofás são o coração de qualquer área de descanso ou lounge em um evento. Eles criam um convite visual ao relaxamento, um espaço de refúgio para convidados que querem conversar em grupo, descansar entre as danças ou simplesmente apreciar a decoração sentados com conforto. Ter sofás no seu evento é um sinal de que você se preocupa com a experiência completa dos seus convidados.
 
-## Por que Alugar Conosco?
+## Conforto para Grupos
 
-Alugar em vez de comprar é a escolha inteligente para quem organiza eventos esporádicos. Você economiza espaço de armazenamento, não precisa se preocupar com manutenção e garante que sempre terá equipamentos limpos e em perfeito estado.
+Diferente de cadeiras individuais, os sofás incentivam a proximidade. Amigos se espremem no sofá para fofocar. Casais se acomodam para descansar. Familiares se reúnem para fotos espontâneas. O sofá é um ponto de encontro natural, uma "ilha de aconchego" dentro do salão.
 
 ## Eventos Indicados
 
-Nossos equipamentos são perfeitos para festas de aniversário, casamentos, formaturas, eventos corporativos, churrascos, festas juninas, confraternizações e qualquer celebração que exija mobiliário de qualidade.
+Os sofás são essenciais em:
+- Áreas lounge em casamentos e formaturas
+- Camarotes e áreas VIP em eventos corporativos
+- Salas de descanso em conferências e palestras
+- Espaços de networking em lançamentos de produto
+- Áreas de espera em eventos médicos e beneficentes
+- Festas de aniversário sofisticadas e bodas
 
-## Vantagens do Nosso Aluguel
+## Modelos Disponíveis
 
-- Equipamentos revisados e higienizados antes de cada entrega
-- Pontualidade garantida na entrega e retirada
-- Atendimento personalizado para ajudar na escolha
-- Orçamento justo e sem taxas ocultas
-- Atendemos todas as regiões do Rio de Janeiro
+Oferecemos sofás que atendem a diferentes estéticas:
+- **Sofá clássico**: madeira escura com estofamento em veludo ou linho
+- **Sofá contemporâneo**: linhas retas, base de madeira clara, tecido neutro
+- **Sofá Chesterfield**: capitonê, couro sintético marrom, visual retrô luxuoso
+- **Sofá modular**: seções independentes que permitem montar L, U ou ilha
+- **Sofá baixo**: estilo japonês, perfeito para áreas descalças e intimistas
 
-Entre em contato e solicite um orçamento sem compromisso.
+## Combinações e Layout
 
+Para criar um lounge funcional, recomendamos:
+- 1 sofá de 3 lugares + 2 poltronas + 1 mesa de centro
+- 2 sofás de 2 lugares frente a frente + mesa baixa entre eles
+- Sofá modular em L + puffs coloridos como assentos extras
+- Sofá Chesterfield + mesa bistrô + banquetas para visual vintage
+
+Fale conosco pelo WhatsApp e monte sua área lounge com sofás elegantes no Rio de Janeiro.

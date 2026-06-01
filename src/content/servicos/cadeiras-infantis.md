@@ -1,32 +1,47 @@
-﻿---
+---
 title: 'Aluguel de Cadeiras Infantis'
-description: 'Cadeiras infantis coloridas e seguras para festas de aniversário e eventos com crianças no Rio de Janeiro. Tamanho perfeito para os pequenos.'
-price: 'Consulte o preço'
+description: 'Cadeiras infantis coloridas e seguras para festas de aniversário e eventos com crianças no Rio de Janeiro. Tamanho perfeito para os pequenos se sentirem especiais.'
+price: 'Consulte'
 features:
-- 'Altura adequada para crianças'
-- 'Estrutura leve e segura'
-- 'Cores vibrantes e divertidas'
-- 'Fáceis de limpar e higienizar'
-- 'Entrega e montagem inclusas'
+  - 'Altura de 25 a 30 cm do chão, ideal para crianças de 2 a 8 anos'
+  - 'Estrutura leve e segura com cantos arredondados'
+  - 'Cores vibrantes: vermelho, azul, amarelo, verde e rosa'
+  - 'Fáceis de limpar, resistentes a sujeira de festa'
+  - 'Entrega e montagem inclusas'
 ---
 
-Oferecemos aluguel com qualidade garantida para o seu evento no Rio de Janeiro. Nossas peças são revisadas, higienizadas e entregues no horário combinado.
+As cadeiras infantis são pequenas em tamanho, mas grandes na importância. Em uma festa de aniversário, as crianças precisam de seu próprio espaço — não apenas por conforto, mas por segurança e desenvolvimento social. Crianças sentadas em cadeiras adultas ficam desconfortáveis, inseguras e acabam se isolando. Nossas cadeiras infantis resolvem isso, criando um ambiente onde os pequenos se sentem protagonistas.
 
-## Por que Alugar Conosco?
+## Segurança em Primeiro Lugar
 
-Alugar em vez de comprar é a escolha inteligente para quem organiza eventos esporádicos. Você economiza espaço de armazenamento, não precisa se preocupar com manutenção e garante que sempre terá equipamentos limpos e em perfeito estado.
+Nossas cadeiras infantis são projetadas com foco absoluto na segurança:
+- Cantos arredondados em 100% da estrutura
+- Material atóxico e livre de ftalatos
+- Pés antiderrapantes para evitar escorregões
+- Estrutura baixa e estável, impossível de tombar
+- Superfície lisa sem rebarbas ou farpas
+
+## Benefícios para a Festa
+
+Quando as crianças têm cadeiras do tamanho certo, elas:
+- Comem com mais independência e menos sujeira
+- Participam das brincadeiras com mais energia
+- Interagem melhor entre si, formando grupos naturais
+- Ficam menos irritáveis e cansadas
+- Aproveitam a mesa de atividades (pintura, massinha, lego)
 
 ## Eventos Indicados
 
-Nossos equipamentos são perfeitos para festas de aniversário, casamentos, formaturas, eventos corporativos, churrascos, festas juninas, confraternizações e qualquer celebração que exija mobiliário de qualidade.
+As cadeiras infantis são indispensáveis em:
+- Festas de aniversário infantil (2 a 8 anos)
+- Chá de bebê com crianças entre os convidados
+- Festas temáticas infantis (princesas, futebol, unicórnios)
+- Eventos escolares e formaturas do maternal
+- Confraternizações familiares com muitos primos
+- Eventos de Dia das Crianças em escolas e condomínios
 
-## Vantagens do Nosso Aluguel
+## Combinação com Mesas Infantis
 
-- Equipamentos revisados e higienizados antes de cada entrega
-- Pontualidade garantida na entrega e retirada
-- Atendimento personalizado para ajudar na escolha
-- Orçamento justo e sem taxas ocultas
-- Atendemos todas as regiões do Rio de Janeiro
+Para o melhor resultado, combine nossas cadeiras infantis com as mesas infantis da locação. A proporção ideal é 1 mesa infantil para cada 4 a 6 cadeiras. Use toalhas de plástico coloridas para proteger as mesas e facilite a limpeza após a festa. Separe a área infantil próxima à mesa dos adultos para supervisão, mas com espaço livre para brincadeiras.
 
-Entre em contato e solicite um orçamento sem compromisso.
-
+Entre em contato pelo WhatsApp e garanta cadeiras infantis seguras e divertidas para a festa do seu pequeno no Rio de Janeiro.
