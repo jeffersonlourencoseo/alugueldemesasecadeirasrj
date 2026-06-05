@@ -23,6 +23,15 @@ const props = Astro.props;
 <!doctype html>
 <html lang="pt-BR">
   <head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-FM30T2KHYE"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-FM30T2KHYE');
+    </script>
+
     <SEO {...props} />
     <SchemaLocalBusiness
       breadcrumb={props.breadcrumb}
