@@ -7,6 +7,7 @@ export default defineConfig({
   output: 'static',
   adapter: vercel(),
   site: SITE_CONFIG.domain,
+  trailingSlash: 'always',
   integrations: [
     tailwind(),
   ],

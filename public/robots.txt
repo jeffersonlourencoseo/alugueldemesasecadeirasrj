@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://alugueldemesaecadeirario.com.br/sitemap.xml
+Sitemap: https://www.alugueldemesaecadeirario.com.br/sitemap.xml

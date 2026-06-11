@@ -20,8 +20,6 @@ export const GET: APIRoute = async () => {
     'servicos/',
     'blog/',
     'contato/',
-    'privacidade/',
-    'termos/',
   ];
 
   const blogPosts = await getCollection('blog');
