@@ -43,6 +43,67 @@ const props = Astro.props;
       />
     </noscript>
 
+    <!-- CSS crítico inline para a primeira tela mobile -->
+    <style is:inline>
+      *,:before,:after{box-sizing:border-box;border-width:0;border-style:solid;border-color:#e5e7eb}
+      html,:host{line-height:1.5;-webkit-text-size-adjust:100%;-moz-tab-size:4;-o-tab-size:4;tab-size:4;font-family:DM Sans,system-ui,sans-serif;-webkit-tap-highlight-color:transparent}
+      body{margin:0;line-height:inherit;background-color:#FAF8F5;color:#1A1A1A;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}
+      h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit}
+      p{margin:0}
+      a{color:inherit;text-decoration:inherit}
+      button{cursor:pointer;background-color:transparent;background-image:none;text-transform:none;font-family:inherit;font-size:100%;font-weight:inherit;line-height:inherit;color:inherit;margin:0;padding:0;-webkit-appearance:button}
+      img,svg{display:block;vertical-align:middle;max-width:100%;height:auto}
+      .container{width:100%;margin-left:auto;margin-right:auto;padding-left:1.5rem;padding-right:1.5rem}
+      .relative{position:relative}.absolute{position:absolute}.fixed{position:fixed}.sticky{position:sticky}
+      .inset-0{inset:0}.top-0{top:0}.bottom-6{bottom:1.5rem}.right-6{right:1.5rem}
+      .-top-24{top:-6rem}.-right-24{right:-6rem}.-bottom-32{bottom:-8rem}.-left-32{left:-8rem}
+      .z-10{z-index:10}.z-50{z-index:50}
+      .flex{display:flex}.inline-flex{display:inline-flex}.grid{display:grid}.hidden{display:none}
+      .h-20{height:5rem}.h-12{height:3rem}.h-6{height:1.5rem}.h-full{height:100%}
+      .w-6{width:1.5rem}.w-12{width:3rem}.w-full{width:100%}
+      .max-w-4xl{max-width:56rem}
+      .flex-col{flex-direction:column}.flex-wrap{flex-wrap:wrap}
+      .items-center{align-items:center}.justify-center{justify-content:center}.justify-between{justify-content:space-between}
+      .gap-4{gap:1rem}.gap-2{gap:.5rem}
+      .overflow-hidden{overflow:hidden}
+      .rounded-full{border-radius:9999px}.rounded-xl{border-radius:.75rem}
+      .border{border-width:1px}.border-b{border-bottom-width:1px}
+      .bg-cream{background-color:#FAF8F5}.bg-secondary{background-color:#0B1D3A}.bg-primary{background-color:#C5A059}.bg-white{background-color:#fff}
+      .text-accent{color:#1A1A1A}.text-white{color:#fff}.text-primary{color:#C5A059}.text-secondary{color:#0B1D3A}
+      .px-4{padding-left:1rem;padding-right:1rem}.py-2{padding-top:.5rem;padding-bottom:.5rem}
+      .px-6{padding-left:1.5rem;padding-right:1.5rem}.py-24{padding-top:6rem;padding-bottom:6rem}
+      .px-8{padding-left:2rem;padding-right:2rem}.py-4{padding-top:1rem;padding-bottom:1rem}
+      .text-center{text-align:center}
+      .font-sans{font-family:DM Sans,system-ui,sans-serif}.font-display{font-family:Playfair Display,Georgia,serif}
+      .text-xs{font-size:.75rem;line-height:1rem}.text-sm{font-size:.875rem;line-height:1.25rem}.text-base{font-size:1rem;line-height:1.5rem}.text-lg{font-size:1.125rem;line-height:1.75rem}.text-4xl{font-size:2.25rem;line-height:2.5rem}
+      .font-bold{font-weight:700}.font-semibold{font-weight:600}
+      .uppercase{text-transform:uppercase}
+      .leading-\[1\.1\]{line-height:1.1}.leading-relaxed{line-height:1.625}
+      .tracking-\[0\.2em\]{letter-spacing:.2em}.tracking-wider{letter-spacing:.05em}.tracking-widest{letter-spacing:.1em}
+      .opacity-\[0\.03\]{opacity:.03}
+      .transition-all{transition-property:all;transition-timing-function:cubic-bezier(.4,0,.2,1);transition-duration:.15s}
+      @media (min-width: 768px){
+        .md\:flex{display:flex}.md\:hidden{display:none}
+        .md\:px-12{padding-left:3rem;padding-right:3rem}.md\:py-40{padding-top:10rem;padding-bottom:10rem}
+        .md\:text-2xl{font-size:1.5rem;line-height:2rem}.md\:text-5xl{font-size:3rem;line-height:1}
+        .md\:flex-row{flex-direction:row}
+      }
+      @media (min-width: 1024px){
+        .lg\:text-7xl{font-size:4.5rem;line-height:1}
+      }
+    </style>
+
+    <!-- Deferir o CSS do Astro sem bloquear renderização -->
+    <script is:inline>
+      (function() {
+        const links = document.querySelectorAll('link[rel="stylesheet"][href*="/_astro/_slug_"]');
+        links.forEach(function(link) {
+          link.media = 'print';
+          link.onload = function() { link.media = 'all'; };
+        });
+      })();
+    </script>
+
     <!-- Preload crítico -->
     <link rel="preload" href="/favicon.svg" as="image" type="image/svg+xml" />
   </head>

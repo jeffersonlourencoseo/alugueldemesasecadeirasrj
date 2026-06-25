@@ -9,10 +9,18 @@ export default defineConfig({
   site: SITE_CONFIG.domain,
   trailingSlash: 'always',
   integrations: [
-    tailwind(),
+    tailwind({
+      applyBaseStyles: true,
+      configFile: './tailwind.config.mjs',
+    }),
   ],
   i18n: {
     defaultLocale: 'pt-BR',
     locales: ['pt-BR'],
+  },
+  vite: {
+    build: {
+      cssCodeSplit: false,
+    },
   },
 });
