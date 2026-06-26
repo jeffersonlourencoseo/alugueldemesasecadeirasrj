@@ -1,6 +1,7 @@
 import { defineConfig } from 'astro/config';
 import tailwind from '@astrojs/tailwind';
 import vercel from '@astrojs/vercel/static';
+import partytown from '@astrojs/partytown';
 import { SITE_CONFIG } from './src/data/config';
 
 export default defineConfig({
@@ -12,6 +13,11 @@ export default defineConfig({
     tailwind({
       applyBaseStyles: true,
       configFile: './tailwind.config.mjs',
+    }),
+    partytown({
+      config: {
+        forward: ['dataLayer.push'],
+      },
     }),
   ],
   i18n: {

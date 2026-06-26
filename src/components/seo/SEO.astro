@@ -81,13 +81,11 @@ const resolvedCanonical = canonical
   </>
 )}
 
-<!-- Preconnect para Performance -->
-<link rel="preconnect" href="https://fonts.googleapis.com" />
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-<link rel="dns-prefetch" href="https://fonts.googleapis.com" />
-
-<!-- Garante fallback imediato de fonte (evita FOIT) -->
-<link rel="stylesheet" href="data:text/css;base64,Ym9keXsgZm9udC1mYW1pbHk6ICdETVNhbnMnLCBzeXN0ZW0tdWksIHNhbnMtc2VyaWY7IH0%3D" is:inline />
+<!-- Fontes locais: carregamento rápido e sem dependência de terceiros -->
+<link rel="preconnect" href="/fonts" crossorigin />
+<link rel="preload" href="/fonts/dm-sans-400.woff2" as="font" type="font/woff2" crossorigin />
+<link rel="preload" href="/fonts/playfair-400.woff2" as="font" type="font/woff2" crossorigin />
+<link rel="stylesheet" href="/fonts/fonts.css" />
 
 <!-- Favicons -->
 <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
