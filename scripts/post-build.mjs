@@ -1,7 +1,18 @@
-import { readdir, readFile, writeFile, stat } from 'node:fs/promises';
+import { readdir, readFile, writeFile } from 'node:fs/promises';
+import { existsSync } from 'node:fs';
 import { join, extname } from 'node:path';
 
-const OUTPUT_DIR = '.vercel/output/static';
+const OUTPUT_DIRS = [
+  '.vercel/output/static',
+  'dist',
+];
+
+function findOutputDir() {
+  for (const dir of OUTPUT_DIRS) {
+    if (existsSync(dir)) return dir;
+  }
+  return OUTPUT_DIRS[0];
+}
 
 async function walk(dir) {
   const entries = await readdir(dir, { withFileTypes: true });
@@ -38,8 +49,22 @@ async function deferAstroCss(filePath) {
 }
 
 async function main() {
+  const OUTPUT_DIR = findOutputDir();
+  console.log(`Output directory: ${OUTPUT_DIR}`);
+
+  if (!existsSync(OUTPUT_DIR)) {
+    console.error(`Output directory not found: ${OUTPUT_DIR}`);
+    process.exit(1);
+  }
+
   const files = await walk(OUTPUT_DIR);
   console.log(`Processing ${files.length} HTML files...`);
+
+  if (files.length === 0) {
+    console.error('No HTML files found to process.');
+    process.exit(1);
+  }
+
   await Promise.all(files.map(deferAstroCss));
   console.log('Done.');
 }
